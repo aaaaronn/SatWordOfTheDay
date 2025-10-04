@@ -32,8 +32,8 @@
 		DB15F0992E90A3A3000D0D30 = {
 			isa = PBXGroup;
 			children = (
-				DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */,
 				DB15F0A32E90A3A3000D0D30 /* Products */,
+				DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */,
 			);
 			sourceTree = "<group>";
 		};
