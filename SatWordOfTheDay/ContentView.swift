@@ -7,19 +7,16 @@
 
 import SwiftUI
 
-struct SATWord: Decodable {
+struct SATWord: Decodable, Equatable {
     let word: String
     let definition: String
 }
 
 struct ContentView: View {
-    @State private var currentDate = Date()
-    @State private var currentWordIndex = 0
-    @State private var isMovingRight = true
-    @State private var showDef = false
-    var cardTransitionEdge: Edge {
-        isMovingRight ? .trailing : .leading
-    }
+    @State private var startingDayIndex = 0
+    @State private var visualWordIndex = 0
+    @State private var selectedWordIndex: Int?
+    @State private var isSyncing = false
 
     @State private var words: [SATWord] = []
 
@@ -28,35 +25,32 @@ struct ContentView: View {
             Color.background.ignoresSafeArea()
             VStack {
                 HStack() {
-                    Button(action: {
-                        if (currentWordIndex > 0) {
-                            isMovingRight = false
-                            currentWordIndex -= 1
-                            currentDate = Calendar.current.date(byAdding: .day, value: -1, to: currentDate) ?? currentDate
+                        Button(action: {
+                            if visualWordIndex > 0 {
+                                visualWordIndex -= 1
+                            }
+                        }) {
+                            Image(systemName: "chevron.left")
+                                .font(.system(size: 50))
                         }
-                    }) {
-                        Image(systemName: "chevron.left")
-                            .font(.system(size: 50))
-                    }
-
-                    Spacer()
-
-                    Text(currentDate, style: .date)
+                        
+                        Spacer()
+                        
+                        Text(Calendar.current.date(byAdding: .day, value: visualWordIndex - startingDayIndex, to: Date()) ?? Date(), style: .date)
                         .font(.system(size: 25))
-                        .bold()
-
-                    Spacer()
-
-                    Button(action: {
-                        if (currentWordIndex < words.count - 1) {
-                            isMovingRight = true
-                            currentWordIndex += 1
-                            currentDate = Calendar.current.date(byAdding: .day, value: 1, to: currentDate) ?? currentDate
+                            .bold()
+                            .foregroundColor(.accent3)
+                        
+                        Spacer()
+                        
+                        Button(action: {
+                            if visualWordIndex < words.count - 1 {
+                                visualWordIndex += 1
+                            }
+                        }) {
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 50))
                         }
-                    }) {
-                        Image(systemName: "chevron.right")
-                            .font(.system(size: 50))
-                    }
                 }
                 .padding()
                 .background(.accent2.opacity(0.5))
@@ -66,19 +60,46 @@ struct ContentView: View {
 
                 Spacer()
 
-                ZStack {
-                    if !words.isEmpty {
-                        WordCardView(
-                            word: words[currentWordIndex].word,
-                            definition: words[currentWordIndex].definition,
-                            showDef: showDef,
-                            onTap: { showDef.toggle() }
-                        )
-                        .id(currentWordIndex)
-                    } else {
-                        Text("Loading...")
+                ScrollViewReader { scrollProxy in
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        LazyHStack(spacing: 28) {
+                            ForEach(words.indices, id: \.self) { i in
+                                WordCardView(
+                                    word: words[i].word,
+                                    definition: words[i].definition
+                                )
+                                .containerRelativeFrame(.horizontal, count: 1, span: 1, spacing: 0)
+                                .id(i)
+                            }
+                        }
+                        .scrollTargetLayout()
+                    }
+                    .safeAreaPadding(.horizontal, 32)
+                    .onChange(of: words) {
+                        if !words.isEmpty {
+                            scrollProxy.scrollTo(startingDayIndex, anchor: .center)
+                            visualWordIndex = startingDayIndex
+                        }
+                    }
+                    .scrollPosition(id: $selectedWordIndex)
+                    .onChange(of: selectedWordIndex) {
+                        if let index = selectedWordIndex {
+                            isSyncing = true
+                            visualWordIndex = index
+                        }
+                    }
+                    .onChange(of: visualWordIndex) {
+                        // only animate from arrows
+                        if isSyncing {
+                            isSyncing = false
+                            return
+                        }
+                        withAnimation {
+                            scrollProxy.scrollTo(visualWordIndex, anchor: .center)
+                        }
                     }
                 }
+                .scrollTargetBehavior(.viewAligned)
                 .onAppear {
                     loadWords()
                 }
@@ -103,46 +124,45 @@ struct ContentView: View {
     {
         let dayOfYear = Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1
 
-        currentWordIndex = dayOfYear % words.count
-
+        startingDayIndex = dayOfYear % words.count
     }
 }
 
 struct WordCardView: View {
     let word: String
     let definition: String
-    let showDef: Bool
-    let onTap: () -> Void
+
+    @State private var showDef: Bool = false
 
     var body: some View {
         VStack(spacing: 10) {
             Text(word)
-                .font(.system(size: 70))
+                .font(.system(size: 50))
                 .bold()
                 .foregroundColor(.accentColor)
                 .lineLimit(1)
                 .minimumScaleFactor(0.2)
             if showDef {
                 Text(definition)
-                    .font(.system(size: 40))
-                    .foregroundColor(.accent)
+                    .font(.system(size: 30))
+                    .foregroundColor(.accent3)
                     .multilineTextAlignment(.center)
                     .minimumScaleFactor(0.2)
                     .transition(.move(edge: .bottom).combined(with: .opacity))
             } else {
                 Text("Tap to reveal definition")
                     .font(.subheadline)
-                    .transition(.opacity)
+                    .foregroundColor(.accent3)
+                    .transition(.slide.combined(with: .opacity))
             }
         }
         .padding(30)
         .background(.accent2.opacity(0.5))
         .cornerRadius(16)
         .shadow(radius: 5)
-        .padding(15)
         .onTapGesture {
             withAnimation(.easeInOut(duration: 0.3)) {
-                onTap()
+                showDef.toggle()
             }
         }
     }
