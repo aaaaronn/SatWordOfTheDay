@@ -6,8 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DB9124062E9B1CA600F0316C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DB15F0A22E90A3A3000D0D30 /* SatWordOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatWordOfTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +46,7 @@
 		DB15F0992E90A3A3000D0D30 = {
 			isa = PBXGroup;
 			children = (
+				DB9123EC2E9B1CA300F0316C /* Frameworks */,
 				DB15F0A32E90A3A3000D0D30 /* Products */,
 				DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */,
 			);
@@ -45,6 +60,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		DB9123EC2E9B1CA300F0316C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -55,6 +78,7 @@
 				DB15F09E2E90A3A3000D0D30 /* Sources */,
 				DB15F09F2E90A3A3000D0D30 /* Frameworks */,
 				DB15F0A02E90A3A3000D0D30 /* Resources */,
+				DB9124062E9B1CA600F0316C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
