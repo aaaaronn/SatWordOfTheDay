@@ -62,7 +62,7 @@ struct ContentView: View {
 
                 ScrollViewReader { scrollProxy in
                     ScrollView(.horizontal, showsIndicators: false) {
-                        LazyHStack(spacing: 28) {
+                        LazyHStack(spacing: 32) {
                             ForEach(words.indices, id: \.self) { i in
                                 WordCardView(
                                     word: words[i].word,
@@ -157,6 +157,7 @@ struct WordCardView: View {
             }
         }
         .padding(30)
+        //.frame(maxWidth: 200)
         .background(.accent2.opacity(0.5))
         .cornerRadius(16)
         .shadow(radius: 5)
