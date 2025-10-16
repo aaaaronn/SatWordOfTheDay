@@ -21,6 +21,20 @@
                ReferencedContainer = "container:SatWordOfTheDay.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DB2DBC2C2E9F30E000A1F84D"
+               BuildableName = "SATWordOfTheDayWidgetExtension.appex"
+               BlueprintName = "SATWordOfTheDayWidgetExtension"
+               ReferencedContainer = "container:SatWordOfTheDay.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

@@ -6,11 +6,7 @@
 //
 
 import SwiftUI
-
-struct SATWord: Decodable, Equatable {
-    let word: String
-    let definition: String
-}
+import WidgetKit //refresh
 
 struct ContentView: View {
     @State private var startingDayIndex = 0
@@ -39,7 +35,7 @@ struct ContentView: View {
                         Text(Calendar.current.date(byAdding: .day, value: visualWordIndex - startingDayIndex, to: Date()) ?? Date(), style: .date)
                         .font(.system(size: 25))
                             .bold()
-                            .foregroundColor(.accent3)
+                            .foregroundColor(.accent2)
                         
                         Spacer()
                         
@@ -53,7 +49,7 @@ struct ContentView: View {
                         }
                 }
                 .padding()
-                .background(.accent2.opacity(0.5))
+                .background(.accent3.opacity(0.5))
                 .cornerRadius(15)
                 .shadow(radius: 5)
                 .padding()
@@ -101,6 +97,7 @@ struct ContentView: View {
                 }
                 .scrollTargetBehavior(.viewAligned)
                 .onAppear {
+                    WidgetCenter.shared.reloadAllTimelines()
                     loadWords()
                 }
 
@@ -110,13 +107,10 @@ struct ContentView: View {
     }
 
     func loadWords() {
-        if let url = Bundle.main.url(forResource: "sat_words", withExtension: "json") {
-            if let data = try? Data(contentsOf: url) {
-                if let loadedWords = try? JSONDecoder().decode([SATWord].self, from: data) {
-                    self.words = loadedWords
-                    showWordOfTheDay()
-                }
-            }
+        self.words = GetSATWords()
+        
+        if !words.isEmpty {
+            showWordOfTheDay()
         }
     }
 
@@ -145,20 +139,20 @@ struct WordCardView: View {
             if showDef {
                 Text(definition)
                     .font(.system(size: 30))
-                    .foregroundColor(.accent3)
+                    .foregroundColor(.accent2)
                     .multilineTextAlignment(.center)
                     .minimumScaleFactor(0.2)
                     .transition(.move(edge: .bottom).combined(with: .opacity))
             } else {
                 Text("Tap to reveal definition")
                     .font(.subheadline)
-                    .foregroundColor(.accent3)
+                    .foregroundColor(.accent2)
                     .transition(.slide.combined(with: .opacity))
             }
         }
         .padding(30)
         //.frame(maxWidth: 200)
-        .background(.accent2.opacity(0.5))
+        .background(.accent3.opacity(0.5))
         .cornerRadius(16)
         .shadow(radius: 5)
         .onTapGesture {

@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DB2DBC2F2E9F30E000A1F84D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2DBC2E2E9F30E000A1F84D /* WidgetKit.framework */; };
+		DB2DBC302E9F30E000A1F84D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */; };
+		DB2DBC3B2E9F30E200A1F84D /* SATWordOfTheDayWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DB2DBC2D2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DB88C35D2EA06C7300B4FF75 /* SATWordShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */; };
+		DB88C35E2EA06F8700B4FF75 /* SATWordShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */; };
+		DB88C3632EA0723100B4FF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88C3622EA0723100B4FF75 /* Assets.xcassets */; };
+		DB88C3642EA0723100B4FF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88C3622EA0723100B4FF75 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB2DBC392E9F30E200A1F84D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB15F09A2E90A3A3000D0D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2DBC2C2E9F30E000A1F84D;
+			remoteInfo = SATWordOfTheDayWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		DB9124062E9B1CA600F0316C /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -13,6 +33,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				DB2DBC3B2E9F30E200A1F84D /* SATWordOfTheDayWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -21,13 +42,41 @@
 
 /* Begin PBXFileReference section */
 		DB15F0A22E90A3A3000D0D30 /* SatWordOfTheDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatWordOfTheDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2DBC2D2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SATWordOfTheDayWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2DBC2E2E9F30E000A1F84D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DB88C35A2EA06C1A00B4FF75 /* SATWordOfTheDayWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SATWordOfTheDayWidgetExtension.entitlements; sourceTree = "<group>"; };
+		DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATWordShared.swift; sourceTree = "<group>"; };
+		DB88C3622EA0723100B4FF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DB2DBC3E2E9F30E200A1F84D /* Exceptions for "SATWordOfTheDayWidget" folder in "SATWordOfTheDayWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DB2DBC2C2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SatWordOfTheDay;
+			sourceTree = "<group>";
+		};
+		DB2DBC312E9F30E000A1F84D /* SATWordOfTheDayWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DB2DBC3E2E9F30E200A1F84D /* Exceptions for "SATWordOfTheDayWidget" folder in "SATWordOfTheDayWidgetExtension" target */,
+			);
+			path = SATWordOfTheDayWidget;
+			sourceTree = "<group>";
+		};
+		DB88C3582EA06AF500B4FF75 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -40,15 +89,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB2DBC2A2E9F30E000A1F84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2DBC302E9F30E000A1F84D /* SwiftUI.framework in Frameworks */,
+				DB2DBC2F2E9F30E000A1F84D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		DB15F0992E90A3A3000D0D30 = {
 			isa = PBXGroup;
 			children = (
+				DB88C3562EA06AE800B4FF75 /* SATWordShared */,
+				DB2DBC312E9F30E000A1F84D /* SATWordOfTheDayWidget */,
 				DB9123EC2E9B1CA300F0316C /* Frameworks */,
 				DB15F0A32E90A3A3000D0D30 /* Products */,
 				DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */,
+				DB88C35A2EA06C1A00B4FF75 /* SATWordOfTheDayWidgetExtension.entitlements */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,14 +117,26 @@
 			isa = PBXGroup;
 			children = (
 				DB15F0A22E90A3A3000D0D30 /* SatWordOfTheDay.app */,
+				DB2DBC2D2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DB88C3562EA06AE800B4FF75 /* SATWordShared */ = {
+			isa = PBXGroup;
+			children = (
+				DB88C3622EA0723100B4FF75 /* Assets.xcassets */,
+				DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */,
+				DB88C3582EA06AF500B4FF75 /* Resources */,
+			);
+			path = SATWordShared;
 			sourceTree = "<group>";
 		};
 		DB9123EC2E9B1CA300F0316C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */,
+				DB2DBC2E2E9F30E000A1F84D /* WidgetKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,9 +156,11 @@
 			buildRules = (
 			);
 			dependencies = (
+				DB2DBC3A2E9F30E200A1F84D /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				DB15F0A42E90A3A3000D0D30 /* SatWordOfTheDay */,
+				DB88C3582EA06AF500B4FF75 /* Resources */,
 			);
 			name = SatWordOfTheDay;
 			packageProductDependencies = (
@@ -93,6 +168,29 @@
 			productName = SatWordOfTheDay;
 			productReference = DB15F0A22E90A3A3000D0D30 /* SatWordOfTheDay.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DB2DBC2C2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2DBC3F2E9F30E200A1F84D /* Build configuration list for PBXNativeTarget "SATWordOfTheDayWidgetExtension" */;
+			buildPhases = (
+				DB2DBC292E9F30E000A1F84D /* Sources */,
+				DB2DBC2A2E9F30E000A1F84D /* Frameworks */,
+				DB2DBC2B2E9F30E000A1F84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DB2DBC312E9F30E000A1F84D /* SATWordOfTheDayWidget */,
+				DB88C3582EA06AF500B4FF75 /* Resources */,
+			);
+			name = SATWordOfTheDayWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = SATWordOfTheDayWidgetExtension;
+			productReference = DB2DBC2D2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +204,10 @@
 				TargetAttributes = {
 					DB15F0A12E90A3A3000D0D30 = {
 						CreatedOnToolsVersion = 26.0.1;
+					};
+					DB2DBC2C2E9F30E000A1F84D = {
+						CreatedOnToolsVersion = 26.0.1;
+						LastSwiftMigration = 2600;
 					};
 				};
 			};
@@ -124,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				DB15F0A12E90A3A3000D0D30 /* SatWordOfTheDay */,
+				DB2DBC2C2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +236,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB88C3632EA0723100B4FF75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2DBC2B2E9F30E000A1F84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88C3642EA0723100B4FF75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +255,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB88C35D2EA06C7300B4FF75 /* SATWordShared.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2DBC292E9F30E000A1F84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB88C35E2EA06F8700B4FF75 /* SATWordShared.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB2DBC3A2E9F30E200A1F84D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2DBC2C2E9F30E000A1F84D /* SATWordOfTheDayWidgetExtension */;
+			targetProxy = DB2DBC392E9F30E200A1F84D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DB15F0AB2E90A3A5000D0D30 /* Debug */ = {
@@ -268,6 +397,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SatWordOfTheDay/SatWordOfTheDay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
@@ -311,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SatWordOfTheDay/SatWordOfTheDay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
@@ -349,6 +480,76 @@
 			};
 			name = Release;
 		};
+		DB2DBC3C2E9F30E200A1F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SATWordOfTheDayWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SATWordOfTheDayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SATWordOfTheDayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaronk.SatWordOfTheDay.SATWordOfTheDayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB2DBC3D2E9F30E200A1F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SATWordOfTheDayWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SATWordOfTheDayWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SATWordOfTheDayWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaronk.SatWordOfTheDay.SATWordOfTheDayWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +567,15 @@
 			buildConfigurations = (
 				DB15F0AE2E90A3A5000D0D30 /* Debug */,
 				DB15F0AF2E90A3A5000D0D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2DBC3F2E9F30E200A1F84D /* Build configuration list for PBXNativeTarget "SATWordOfTheDayWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2DBC3C2E9F30E200A1F84D /* Debug */,
+				DB2DBC3D2E9F30E200A1F84D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
