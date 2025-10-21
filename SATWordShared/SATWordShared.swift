@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SATWord: Decodable, Equatable {
+struct SATWord: Codable, Equatable {
     let word: String
     let definition: String
 }
