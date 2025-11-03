@@ -16,17 +16,20 @@ struct WordWidgetView: View {
             Text(entry.word.word)
                 .font(.system(size: 35))
                 .bold()
+                .padding(.top, 12)
                 .padding(.bottom, 2)
-                .padding(.top, 16)
                 .lineLimit(1)
                 .minimumScaleFactor(0.1)
+                .frame(maxWidth: .infinity, alignment: .leading)
             
             Text(entry.word.definition)
                 .font(.body)
+                .minimumScaleFactor(0.2)
                 //.multilineTextAlignment(.center)
             
             Spacer()
         }
+        .padding(.horizontal, 5)
         .foregroundColor(.accent)
         
         .containerBackground(for: .widget)
@@ -40,9 +43,9 @@ struct WordWidgetView: View {
 #Preview(as: .systemSmall) {
     WordWidgetExtension()
 } timeline: {
-    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a common greeting"))
+    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a word that words"))
 
-    WordEntry(date: .now + 1, word: SATWord(word: "Complacent", definition: "a common parting"))
+    WordEntry(date: .now + 1, word: SATWord(word: "Complacent", definition: "a word that words particularly well"))
 }
 
 
