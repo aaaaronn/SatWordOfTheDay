@@ -12,6 +12,7 @@ struct SATWord: Decodable, Equatable {
     let definition: String
 }
 
+
 func GetSATWords() -> [SATWord]
 {
     if let url = Bundle.main.url(forResource: "sat_words", withExtension: "json") {
