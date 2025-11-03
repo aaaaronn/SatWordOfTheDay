@@ -29,13 +29,16 @@ struct ContentView: View {
                             Image(systemName: "chevron.left")
                                 .font(.system(size: 50))
                         }
+                    
                         
                         Spacer()
                         
                         Text(Calendar.current.date(byAdding: .day, value: visualWordIndex - startingDayIndex, to: Date()) ?? Date(), style: .date)
-                        .font(.system(size: 25))
+                            .font(.system(size: 25))
                             .bold()
                             .foregroundColor(.accent2)
+                            .scaleEffect(UIDevice.current.userInterfaceIdiom == .pad ? 1.5 : 1)
+                    
                         
                         Spacer()
                         
@@ -66,6 +69,7 @@ struct ContentView: View {
                                 )
                                 .containerRelativeFrame(.horizontal, count: 1, span: 1, spacing: 0)
                                 .id(i)
+                                .scaleEffect(UIDevice.current.userInterfaceIdiom == .pad ? 2.5 : 1)
                             }
                         }
                         .scrollTargetLayout()
