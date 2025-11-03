@@ -28,17 +28,3 @@ struct WordWidgetExtension: Widget {
         ])
     }
 }
-
-#Preview(as: .systemSmall) {
-    WordWidgetExtension()
-} timeline: {
-    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a common greeting"))
-    WordEntry(date: .now + 1, word: SATWord(word: "Goodbye", definition: "a common parting"))
-}
-
-#Preview(as: .systemMedium) {
-    WordWidgetExtension()
-} timeline: {
-    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a common greeting"))
-    WordEntry(date: .now + 1, word: SATWord(word: "Goodbye", definition: "a common parting"))
-}

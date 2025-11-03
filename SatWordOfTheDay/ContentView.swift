@@ -9,12 +9,12 @@ import SwiftUI
 import WidgetKit //refresh
 
 struct ContentView: View {
+    @Binding var words: [SATWord]
     @State private var startingDayIndex = 0
     @State private var visualWordIndex = 0
     @State private var selectedWordIndex: Int?
     @State private var isSyncing = false
 
-    @State private var words: [SATWord] = []
 
     var body: some View {
         ZStack {
@@ -71,13 +71,11 @@ struct ContentView: View {
                         .scrollTargetLayout()
                     }
                     .safeAreaPadding(.horizontal, 32)
-                    .onChange(of: words) {
-                        if !words.isEmpty {
-                            scrollProxy.scrollTo(startingDayIndex, anchor: .center)
-                            visualWordIndex = startingDayIndex
-                        }
-                    }
                     .scrollPosition(id: $selectedWordIndex)
+                    // hopefully only runs once on load
+                    .onChange(of: startingDayIndex) {
+                        scrollProxy.scrollTo(startingDayIndex, anchor: .center)
+                    }
                     .onChange(of: selectedWordIndex) {
                         if let index = selectedWordIndex {
                             isSyncing = true
@@ -98,71 +96,17 @@ struct ContentView: View {
                 .scrollTargetBehavior(.viewAligned)
                 .onAppear {
                     WidgetCenter.shared.reloadAllTimelines()
-                    loadWords()
+                    startingDayIndex = words.count / 2
+                    visualWordIndex = startingDayIndex
                 }
 
                 Spacer()
             }
         }
     }
-
-    func loadWords() {
-        self.words = GetSATWords()
-        
-        if !words.isEmpty {
-            showWordOfTheDay()
-        }
-    }
-
-    func showWordOfTheDay()
-    {
-        let dayOfYear = Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1
-
-        startingDayIndex = dayOfYear % words.count
-    }
-}
-
-struct WordCardView: View {
-    let word: String
-    let definition: String
-
-    @State private var showDef: Bool = false
-
-    var body: some View {
-        VStack(spacing: 10) {
-            Text(word)
-                .font(.system(size: 50))
-                .bold()
-                .foregroundColor(.accentColor)
-                .lineLimit(1)
-                .minimumScaleFactor(0.2)
-            if showDef {
-                Text(definition)
-                    .font(.system(size: 30))
-                    .foregroundColor(.accent2)
-                    .multilineTextAlignment(.center)
-                    .minimumScaleFactor(0.2)
-                    .transition(.move(edge: .bottom).combined(with: .opacity))
-            } else {
-                Text("Tap to reveal definition")
-                    .font(.subheadline)
-                    .foregroundColor(.accent2)
-                    .transition(.slide.combined(with: .opacity))
-            }
-        }
-        .padding(30)
-        //.frame(maxWidth: 200)
-        .background(.accent3.opacity(0.5))
-        .cornerRadius(16)
-        .shadow(radius: 5)
-        .onTapGesture {
-            withAnimation(.easeInOut(duration: 0.3)) {
-                showDef.toggle()
-            }
-        }
-    }
 }
 
 #Preview {
-    ContentView()
+    @Previewable @State var word = GetSATWords()
+    ContentView(words: $word)
 }
