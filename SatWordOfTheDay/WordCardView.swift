@@ -41,15 +41,12 @@ struct WordCardView: View {
             
         
         .cornerRadius(16)
-        .shadow(radius: 5)
+        .shadow(radius: 5, x: 5, y: 5)
+        .shadow(color: .white.opacity(0.5), radius: 3)
         .onTapGesture {
             withAnimation(.easeInOut(duration: 0.3)) {
                 showDef.toggle()
             }
         }
     }
-}
-
-#Preview {
-    WordCardView(word: "Word", definition: "define the word")
 }
