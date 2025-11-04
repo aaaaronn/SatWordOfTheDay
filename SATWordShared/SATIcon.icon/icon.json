@@ -1,0 +1,49 @@
+{
+  "fill-specializations" : [
+    {
+      "value" : {
+        "automatic-gradient" : "display-p3:0.55809,0.70627,0.57176,0.45136"
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "automatic-gradient" : "display-p3:0.00125,0.08377,0.00640,0.45136"
+      }
+    }
+  ],
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill" : "none",
+          "glass" : true,
+          "image-name" : "App2.png",
+          "name" : "App2",
+          "position" : {
+            "scale" : 0.9,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

@@ -18,7 +18,12 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            Color.background.ignoresSafeArea()
+            LinearGradient(
+                colors: [.accent3, .accent2],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+                .ignoresSafeArea()
             VStack {
                 HStack() {
                         Button(action: {
@@ -52,7 +57,7 @@ struct ContentView: View {
                         }
                 }
                 .padding()
-                .background(.accent3.opacity(0.5))
+                .background(.accent4.opacity(0.8))
                 .cornerRadius(15)
                 .shadow(radius: 5)
                 .padding()

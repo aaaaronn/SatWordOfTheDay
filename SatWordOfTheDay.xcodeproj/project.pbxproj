@@ -14,6 +14,8 @@
 		DB88C35E2EA06F8700B4FF75 /* SATWordShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */; };
 		DB88C3632EA0723100B4FF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88C3622EA0723100B4FF75 /* Assets.xcassets */; };
 		DB88C3642EA0723100B4FF75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB88C3622EA0723100B4FF75 /* Assets.xcassets */; };
+		DBE146BF2EB9A14500A43264 /* SATIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DBE146BE2EB9A14500A43264 /* SATIcon.icon */; };
+		DBE146C02EB9A14500A43264 /* SATIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = DBE146BE2EB9A14500A43264 /* SATIcon.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 		DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATWordShared.swift; sourceTree = "<group>"; };
 		DB88C3622EA0723100B4FF75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9123EF2E9B1CA400F0316C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DBE146BE2EB9A14500A43264 /* SATIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = SATIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -125,6 +128,7 @@
 		DB88C3562EA06AE800B4FF75 /* SATWordShared */ = {
 			isa = PBXGroup;
 			children = (
+				DBE146BE2EB9A14500A43264 /* SATIcon.icon */,
 				DB88C3622EA0723100B4FF75 /* Assets.xcassets */,
 				DB88C35C2EA06C7000B4FF75 /* SATWordShared.swift */,
 				DB88C3582EA06AF500B4FF75 /* Resources */,
@@ -237,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB88C3632EA0723100B4FF75 /* Assets.xcassets in Resources */,
+				DBE146BF2EB9A14500A43264 /* SATIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB88C3642EA0723100B4FF75 /* Assets.xcassets in Resources */,
+				DBE146C02EB9A14500A43264 /* SATIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +401,9 @@
 		DB15F0AE2E90A3A5000D0D30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = SATIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = SatWordOfTheDay/SatWordOfTheDay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -405,6 +412,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Word";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -413,8 +422,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -439,8 +448,9 @@
 		DB15F0AF2E90A3A5000D0D30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = SATIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = SatWordOfTheDay/SatWordOfTheDay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -449,6 +459,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Word";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,8 +469,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -492,7 +504,7 @@
 				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SATWordOfTheDayWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SATWordOfTheDayWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Word Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,7 +539,7 @@
 				DEVELOPMENT_TEAM = 7VZS5Y6SQU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SATWordOfTheDayWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = SATWordOfTheDayWidget;
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Word Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -36,7 +36,10 @@ struct WordCardView: View {
         }
         .padding(30)
         //.frame(maxWidth: 200)
-        .background(.accent3.opacity(0.5))
+        //.accent4.opacity(0.8)
+        .background(.ultraThinMaterial)
+            
+        
         .cornerRadius(16)
         .shadow(radius: 5)
         .onTapGesture {
@@ -45,4 +48,8 @@ struct WordCardView: View {
             }
         }
     }
+}
+
+#Preview {
+    WordCardView(word: "Word", definition: "define the word")
 }

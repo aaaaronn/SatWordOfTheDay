@@ -16,6 +16,7 @@ struct WordWidgetView: View {
             Text(entry.word.word)
                 .font(.system(size: 35))
                 .bold()
+                .italic()
                 .padding(.top, 12)
                 .padding(.bottom, 2)
                 .lineLimit(1)
@@ -27,14 +28,22 @@ struct WordWidgetView: View {
                 .minimumScaleFactor(0.2)
                 //.multilineTextAlignment(.center)
             
-            Spacer()
+            //Spacer()
+            HStack {
+                Spacer()
+                
+                Image(ImageResource.miniIcon)
+                    .resizable()
+                    .frame(width:32, height: 32)
+                    
+            }
         }
         .padding(.horizontal, 5)
         .foregroundColor(.accent)
         
         .containerBackground(for: .widget)
         {
-            Color.accent3
+            LinearGradient(colors: [.accent4, .accent3], startPoint: .topLeading, endPoint: .bottom)
         }
     }
 }
