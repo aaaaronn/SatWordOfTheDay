@@ -37,7 +37,7 @@ struct WordCardView: View {
         .padding(30)
         //.frame(maxWidth: 200)
         //.accent4.opacity(0.8)
-        .background(.ultraThinMaterial)
+        .background(.accent4.opacity(0.8))
             
         
         .cornerRadius(16)

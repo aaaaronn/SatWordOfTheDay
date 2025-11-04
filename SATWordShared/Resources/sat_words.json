@@ -1,530 +1,530 @@
 [
     {
-        "word": "Deprecate",
-        "definition": "Express disapproval"
+        "word": "Ameliorate",
+        "definition": "Make better"
     },
     {
-        "word": "Deleterious",
-        "definition": "Harmful"
-    },
-    {
-        "word": "Egregious",
-        "definition": "Outstandingly bad"
-    },
-    {
-        "word": "Copious",
-        "definition": "Abundant"
-    },
-    {
-        "word": "Irascible",
-        "definition": "Easily angered"
-    },
-    {
-        "word": "Truculent",
-        "definition": "Eager to fight; aggressive"
-    },
-    {
-        "word": "Pithy",
-        "definition": "Concise and meaningful"
-    },
-    {
-        "word": "Incongruous",
-        "definition": "Out of place"
-    },
-    {
-        "word": "Assiduous",
-        "definition": "Persistent and hardworking"
-    },
-    {
-        "word": "Acrimonious",
-        "definition": "Bitter in tone"
-    },
-    {
-        "word": "Ubiquitous",
-        "definition": "Present everywhere"
-    },
-    {
-        "word": "Hedonist",
-        "definition": "Person who seeks pleasure"
-    },
-    {
-        "word": "Exonerate",
-        "definition": "To free from blame"
-    },
-    {
-        "word": "Latent",
-        "definition": "Hidden or dormant"
-    },
-    {
-        "word": "Obdurate",
-        "definition": "Stubborn"
-    },
-    {
-        "word": "Cogent",
-        "definition": "Clear and convincing"
-    },
-    {
-        "word": "Lament",
-        "definition": "To mourn"
-    },
-    {
-        "word": "Apathy",
-        "definition": "Lack of interest or emotion"
-    },
-    {
-        "word": "Diatribe",
-        "definition": "Verbal attack"
-    },
-    {
-        "word": "Substantiate",
-        "definition": "To provide evidence for"
-    },
-    {
-        "word": "Magnanimous",
-        "definition": "Generous and forgiving"
-    },
-    {
-        "word": "Idiosyncrasy",
-        "definition": "Distinctive trait or habit"
-    },
-    {
-        "word": "Nefarious",
-        "definition": "Evil or wicked"
-    },
-    {
-        "word": "Audacious",
-        "definition": "Bold and daring"
-    },
-    {
-        "word": "Paragon",
-        "definition": "Model of excellence"
-    },
-    {
-        "word": "Quagmire",
-        "definition": "A difficult or precarious situation"
-    },
-    {
-        "word": "Phlegmatic",
-        "definition": "Calm and unemotional"
-    },
-    {
-        "word": "Meticulous",
-        "definition": "Extremely careful"
-    },
-    {
-        "word": "Dogmatic",
-        "definition": "Strongly opinionated"
-    },
-    {
-        "word": "Engender",
-        "definition": "To cause or produce"
-    },
-    {
-        "word": "Hapless",
-        "definition": "Unlucky"
-    },
-    {
-        "word": "Exhort",
-        "definition": "To strongly encourage"
-    },
-    {
-        "word": "Didactic",
-        "definition": "Intended to teach"
-    },
-    {
-        "word": "Taciturn",
-        "definition": "Reserved; not talkative"
-    },
-    {
-        "word": "Dilatory",
-        "definition": "Tending to delay"
-    },
-    {
-        "word": "Trepidation",
-        "definition": "Fear or apprehension"
-    },
-    {
-        "word": "Juxtapose",
-        "definition": "To place side by side"
-    },
-    {
-        "word": "Untenable",
-        "definition": "Unable to be defended"
-    },
-    {
-        "word": "Castigate",
-        "definition": "To criticize severely"
-    },
-    {
-        "word": "Demure",
-        "definition": "Reserved or modest"
-    },
-    {
-        "word": "Elucidate",
-        "definition": "To make clear"
-    },
-    {
-        "word": "Equivocate",
-        "definition": "To be deliberately vague"
-    },
-    {
-        "word": "Sanguine",
-        "definition": "Optimistic or positive"
-    },
-    {
-        "word": "Esoteric",
-        "definition": "Intended for a select few"
+        "word": "Harangue",
+        "definition": "Angry, long speech"
     },
     {
         "word": "Exculpate",
-        "definition": "To clear from blame"
+        "definition": "Free from blame"
     },
     {
-        "word": "Reprehensible",
-        "definition": "Deserving blame or punishment"
+        "word": "Caustic",
+        "definition": "Harshly sarcastic"
     },
     {
-        "word": "Nebulous",
-        "definition": "Vague or unclear"
+        "word": "Lethargic",
+        "definition": "Very tired"
     },
     {
-        "word": "Ephemeral",
-        "definition": "Short-lived"
+        "word": "Equivocate",
+        "definition": "Be vague on purpose"
     },
     {
-        "word": "Exacerbate",
-        "definition": "To make worse"
-    },
-    {
-        "word": "Austere",
-        "definition": "Simple and strict"
-    },
-    {
-        "word": "Chastise",
-        "definition": "To scold or punish"
-    },
-    {
-        "word": "Intrepid",
-        "definition": "Fearless"
-    },
-    {
-        "word": "Winsome",
-        "definition": "Attractive or appealing"
-    },
-    {
-        "word": "Quintessential",
-        "definition": "Most perfect example"
-    },
-    {
-        "word": "Incredulous",
-        "definition": "Skeptical"
-    },
-    {
-        "word": "Pedantic",
-        "definition": "Overly concerned with details"
-    },
-    {
-        "word": "Cursory",
-        "definition": "Hasty and not thorough"
-    },
-    {
-        "word": "Alacrity",
-        "definition": "Cheerful readiness"
-    },
-    {
-        "word": "Enervate",
-        "definition": "To weaken"
-    },
-    {
-        "word": "Candor",
-        "definition": "Honesty"
-    },
-    {
-        "word": "Onerous",
-        "definition": "Burdensome"
-    },
-    {
-        "word": "Perspicacious",
-        "definition": "Having keen insight"
+        "word": "Irascible",
+        "definition": "Quick to anger"
     },
     {
         "word": "Perfidy",
         "definition": "Betrayal"
     },
     {
-        "word": "Coerce",
-        "definition": "To force"
+        "word": "Exacerbate",
+        "definition": "Make worse"
     },
     {
-        "word": "Recalcitrant",
-        "definition": "Stubbornly disobedient"
+        "word": "Pithy",
+        "definition": "Short but powerful"
     },
     {
-        "word": "Brevity",
-        "definition": "Concise expression"
+        "word": "Obdurate",
+        "definition": "Stubborn"
     },
     {
-        "word": "Furtive",
-        "definition": "Secretive"
+        "word": "Candor",
+        "definition": "Honest openness"
     },
     {
-        "word": "Ineffable",
-        "definition": "Too great to describe"
+        "word": "Engender",
+        "definition": "Cause to happen"
     },
     {
         "word": "Aesthetic",
         "definition": "Related to beauty"
     },
     {
-        "word": "Cacophony",
-        "definition": "Harsh sound"
-    },
-    {
-        "word": "Empirical",
-        "definition": "Based on observation"
-    },
-    {
-        "word": "Fastidious",
-        "definition": "Meticulous; hard to please"
-    },
-    {
-        "word": "Benevolent",
-        "definition": "Kind and generous"
-    },
-    {
-        "word": "Disparate",
-        "definition": "Fundamentally different"
-    },
-    {
-        "word": "Abate",
-        "definition": "To lessen in intensity"
-    },
-    {
-        "word": "Ameliorate",
-        "definition": "To improve or make better"
-    },
-    {
-        "word": "Munificent",
-        "definition": "Very generous"
-    },
-    {
-        "word": "Satiate",
-        "definition": "To satisfy fully"
-    },
-    {
-        "word": "Harangue",
-        "definition": "Lengthy scolding or speech"
-    },
-    {
-        "word": "Extol",
-        "definition": "To praise highly"
-    },
-    {
-        "word": "Caustic",
-        "definition": "Sarcastic or biting"
-    },
-    {
-        "word": "Paucity",
-        "definition": "Scarcity"
-    },
-    {
-        "word": "Maverick",
-        "definition": "Independent-minded person"
-    },
-    {
-        "word": "Tantamount",
-        "definition": "Equivalent in effect"
-    },
-    {
-        "word": "Zealous",
-        "definition": "Passionate; fervent"
-    },
-    {
-        "word": "Despot",
-        "definition": "Ruler with absolute power"
-    },
-    {
-        "word": "Sagacious",
-        "definition": "Wise; shrewd"
-    },
-    {
-        "word": "Obfuscate",
-        "definition": "To make unclear"
-    },
-    {
-        "word": "Impetuous",
-        "definition": "Acting without thinking"
-    },
-    {
-        "word": "Debilitate",
-        "definition": "To weaken"
-    },
-    {
-        "word": "Adulation",
-        "definition": "Excessive praise"
-    },
-    {
-        "word": "Indolent",
-        "definition": "Lazy"
-    },
-    {
-        "word": "Hackneyed",
-        "definition": "Overused or unoriginal"
-    },
-    {
-        "word": "Querulous",
-        "definition": "Complaining or whining"
-    },
-    {
-        "word": "Lethargic",
-        "definition": "Sluggish"
-    },
-    {
-        "word": "Insipid",
-        "definition": "Lacking flavor or interest"
+        "word": "Copious",
+        "definition": "A large amount"
     },
     {
         "word": "Spurious",
         "definition": "False or fake"
     },
     {
-        "word": "Rancor",
-        "definition": "Bitter resentment"
-    },
-    {
-        "word": "Iconoclast",
-        "definition": "One who challenges tradition"
-    },
-    {
-        "word": "Vacillate",
-        "definition": "To waver between choices"
-    },
-    {
-        "word": "Venerate",
-        "definition": "To regard with respect"
-    },
-    {
-        "word": "Conspicuous",
-        "definition": "Easily seen"
-    },
-    {
-        "word": "Flagrant",
-        "definition": "Extremely bad"
-    },
-    {
-        "word": "Guile",
-        "definition": "Cunning or deceit"
-    },
-    {
-        "word": "Vociferous",
-        "definition": "Loud or outspoken"
-    },
-    {
-        "word": "Arduous",
-        "definition": "Very difficult"
-    },
-    {
-        "word": "Mitigate",
-        "definition": "To make less severe"
-    },
-    {
-        "word": "Veracity",
-        "definition": "Truthfulness"
-    },
-    {
-        "word": "Anomaly",
-        "definition": "Something unusual or unexpected"
-    },
-    {
-        "word": "Bolster",
-        "definition": "To support or strengthen"
-    },
-    {
-        "word": "Facetious",
-        "definition": "Treating serious issues humorously"
-    },
-    {
-        "word": "Inundate",
-        "definition": "To overwhelm"
-    },
-    {
-        "word": "Fervent",
-        "definition": "Passionate"
-    },
-    {
-        "word": "Inveterate",
-        "definition": "Habitual"
-    },
-    {
-        "word": "Laconic",
-        "definition": "Using few words"
-    },
-    {
-        "word": "Ebullient",
-        "definition": "Cheerful and energetic"
-    },
-    {
-        "word": "Superfluous",
-        "definition": "Unnecessary; extra"
-    },
-    {
-        "word": "Partisan",
-        "definition": "Strong supporter"
-    },
-    {
-        "word": "Accolade",
-        "definition": "An expression of praise"
-    },
-    {
-        "word": "Abstain",
-        "definition": "To choose not to do something"
-    },
-    {
-        "word": "Concise",
-        "definition": "Brief and to the point"
-    },
-    {
-        "word": "Eclectic",
-        "definition": "Drawing from diverse sources"
-    },
-    {
-        "word": "Ostentatious",
-        "definition": "Showy"
+        "word": "Chastise",
+        "definition": "Scold or punish"
     },
     {
         "word": "Antipathy",
         "definition": "Strong dislike"
     },
     {
-        "word": "Analogous",
-        "definition": "Comparable in certain respects"
+        "word": "Nebulous",
+        "definition": "Unclear or vague"
+    },
+    {
+        "word": "Extol",
+        "definition": "Praise highly"
+    },
+    {
+        "word": "Conspicuous",
+        "definition": "Easy to see"
+    },
+    {
+        "word": "Munificent",
+        "definition": "Extremely generous"
+    },
+    {
+        "word": "Cursory",
+        "definition": "Quick and not thorough"
+    },
+    {
+        "word": "Assiduous",
+        "definition": "Hardworking and steady"
+    },
+    {
+        "word": "Perspicacious",
+        "definition": "Very insightful"
+    },
+    {
+        "word": "Insipid",
+        "definition": "Boring; flavorless"
+    },
+    {
+        "word": "Taciturn",
+        "definition": "Quiet; says little"
+    },
+    {
+        "word": "Empirical",
+        "definition": "Based on facts or data"
+    },
+    {
+        "word": "Cogent",
+        "definition": "Clear and convincing"
+    },
+    {
+        "word": "Maverick",
+        "definition": "Independent thinker"
+    },
+    {
+        "word": "Hedonist",
+        "definition": "One who lives for pleasure"
+    },
+    {
+        "word": "Sanguine",
+        "definition": "Hopeful and positive"
+    },
+    {
+        "word": "Incongruous",
+        "definition": "Doesn\u2019t fit"
+    },
+    {
+        "word": "Cacophony",
+        "definition": "Harsh mix of sounds"
+    },
+    {
+        "word": "Hackneyed",
+        "definition": "Overused and dull"
+    },
+    {
+        "word": "Reprehensible",
+        "definition": "Deserving blame"
+    },
+    {
+        "word": "Adulation",
+        "definition": "Excessive praise"
+    },
+    {
+        "word": "Deleterious",
+        "definition": "Harmful; damaging"
+    },
+    {
+        "word": "Benevolent",
+        "definition": "Kind and helpful"
+    },
+    {
+        "word": "Tantamount",
+        "definition": "Equal in effect"
+    },
+    {
+        "word": "Indolent",
+        "definition": "Lazy"
+    },
+    {
+        "word": "Aberration",
+        "definition": "Unusual change"
     },
     {
         "word": "Malevolent",
-        "definition": "Evil-minded"
+        "definition": "Wants to do harm"
+    },
+    {
+        "word": "Sagacious",
+        "definition": "Wise and smart"
+    },
+    {
+        "word": "Mitigate",
+        "definition": "Make less severe"
+    },
+    {
+        "word": "Phlegmatic",
+        "definition": "Calm and unemotional"
+    },
+    {
+        "word": "Inveterate",
+        "definition": "Long-established habit"
+    },
+    {
+        "word": "Analogous",
+        "definition": "Similar in some ways"
+    },
+    {
+        "word": "Rancor",
+        "definition": "Deep anger or bitterness"
+    },
+    {
+        "word": "Demure",
+        "definition": "Shy and modest"
+    },
+    {
+        "word": "Onerous",
+        "definition": "Hard to do"
+    },
+    {
+        "word": "Laconic",
+        "definition": "Uses few words"
+    },
+    {
+        "word": "Castigate",
+        "definition": "Criticize harshly"
+    },
+    {
+        "word": "Pedantic",
+        "definition": "Overly focused on details"
+    },
+    {
+        "word": "Venerate",
+        "definition": "Respect deeply"
+    },
+    {
+        "word": "Superfluous",
+        "definition": "Unnecessary; extra"
+    },
+    {
+        "word": "Anomaly",
+        "definition": "Something unusual"
+    },
+    {
+        "word": "Disparate",
+        "definition": "Very different"
+    },
+    {
+        "word": "Deprecate",
+        "definition": "Show disapproval"
+    },
+    {
+        "word": "Querulous",
+        "definition": "Always complaining"
+    },
+    {
+        "word": "Trepidation",
+        "definition": "Fear or worry"
+    },
+    {
+        "word": "Austere",
+        "definition": "Plain and strict"
+    },
+    {
+        "word": "Furtive",
+        "definition": "Sneaky"
+    },
+    {
+        "word": "Partisan",
+        "definition": "Strong supporter"
+    },
+    {
+        "word": "Facetious",
+        "definition": "Joking at the wrong time"
+    },
+    {
+        "word": "Alacrity",
+        "definition": "Eager readiness"
+    },
+    {
+        "word": "Egregious",
+        "definition": "Shockingly bad"
+    },
+    {
+        "word": "Coerce",
+        "definition": "Force someone"
+    },
+    {
+        "word": "Abstain",
+        "definition": "Choose not to do"
+    },
+    {
+        "word": "Arduous",
+        "definition": "Very hard"
+    },
+    {
+        "word": "Debilitate",
+        "definition": "Make weak"
+    },
+    {
+        "word": "Satiate",
+        "definition": "Satisfy fully"
+    },
+    {
+        "word": "Exhort",
+        "definition": "Strongly urge"
+    },
+    {
+        "word": "Fastidious",
+        "definition": "Very hard to please"
+    },
+    {
+        "word": "Brevity",
+        "definition": "Shortness"
+    },
+    {
+        "word": "Idiosyncrasy",
+        "definition": "Unique habit"
+    },
+    {
+        "word": "Quintessential",
+        "definition": "Most typical example"
+    },
+    {
+        "word": "Dilatory",
+        "definition": "Slow; causing delay"
+    },
+    {
+        "word": "Redolent",
+        "definition": "Strongly reminds of"
+    },
+    {
+        "word": "Acrimonious",
+        "definition": "Bitter and angry"
+    },
+    {
+        "word": "Impetuous",
+        "definition": "Acts without thinking"
+    },
+    {
+        "word": "Fervent",
+        "definition": "Very passionate"
+    },
+    {
+        "word": "Diatribe",
+        "definition": "Harsh verbal attack"
+    },
+    {
+        "word": "Concise",
+        "definition": "Brief and clear"
+    },
+    {
+        "word": "Truculent",
+        "definition": "Aggressive and hostile"
+    },
+    {
+        "word": "Untenable",
+        "definition": "Cannot be defended"
+    },
+    {
+        "word": "Nefarious",
+        "definition": "Wicked or criminal"
+    },
+    {
+        "word": "Bolster",
+        "definition": "Support or strengthen"
+    },
+    {
+        "word": "Eclectic",
+        "definition": "From many sources"
+    },
+    {
+        "word": "Juxtapose",
+        "definition": "Place side by side"
+    },
+    {
+        "word": "Vociferous",
+        "definition": "Loud and forceful"
+    },
+    {
+        "word": "Obfuscate",
+        "definition": "Make confusing"
+    },
+    {
+        "word": "Incredulous",
+        "definition": "Skeptical; disbelieving"
+    },
+    {
+        "word": "Paragon",
+        "definition": "Perfect example"
+    },
+    {
+        "word": "Ineffable",
+        "definition": "Too great to describe"
+    },
+    {
+        "word": "Inundate",
+        "definition": "Overwhelm or flood"
+    },
+    {
+        "word": "Apathy",
+        "definition": "Lack of interest"
+    },
+    {
+        "word": "Zealous",
+        "definition": "Very enthusiastic"
+    },
+    {
+        "word": "Meticulous",
+        "definition": "Very careful with details"
+    },
+    {
+        "word": "Magnanimous",
+        "definition": "Very generous"
     },
     {
         "word": "Laud",
-        "definition": "To praise"
+        "definition": "Praise"
+    },
+    {
+        "word": "Esoteric",
+        "definition": "Understood by few"
+    },
+    {
+        "word": "Ostentatious",
+        "definition": "Showy and flashy"
+    },
+    {
+        "word": "Paucity",
+        "definition": "Very small amount"
+    },
+    {
+        "word": "Vacillate",
+        "definition": "Waver between choices"
+    },
+    {
+        "word": "Exonerate",
+        "definition": "Prove not guilty"
     },
     {
         "word": "Ambivalent",
-        "definition": "Having mixed feelings"
+        "definition": "Mixed feelings"
+    },
+    {
+        "word": "Intrepid",
+        "definition": "Brave and fearless"
+    },
+    {
+        "word": "Lament",
+        "definition": "Express sadness"
+    },
+    {
+        "word": "Enervate",
+        "definition": "Weaken"
+    },
+    {
+        "word": "Abate",
+        "definition": "Lessen or reduce"
     },
     {
         "word": "Capricious",
         "definition": "Unpredictable"
     },
     {
-        "word": "Aberration",
-        "definition": "Deviation from the norm"
+        "word": "Flagrant",
+        "definition": "Obviously bad"
     },
     {
         "word": "Complacent",
-        "definition": "Self-satisfied"
+        "definition": "Too satisfied"
     },
     {
-        "word": "Redolent",
-        "definition": "Strongly reminiscent"
+        "word": "Iconoclast",
+        "definition": "One who attacks tradition"
+    },
+    {
+        "word": "Winsome",
+        "definition": "Charming and sweet"
+    },
+    {
+        "word": "Didactic",
+        "definition": "Meant to teach"
+    },
+    {
+        "word": "Hapless",
+        "definition": "Unlucky"
+    },
+    {
+        "word": "Veracity",
+        "definition": "Truthfulness"
+    },
+    {
+        "word": "Ubiquitous",
+        "definition": "Found everywhere"
+    },
+    {
+        "word": "Ebullient",
+        "definition": "Very cheerful"
+    },
+    {
+        "word": "Substantiate",
+        "definition": "Back up with evidence"
+    },
+    {
+        "word": "Audacious",
+        "definition": "Bold and daring"
+    },
+    {
+        "word": "Despot",
+        "definition": "Cruel ruler"
+    },
+    {
+        "word": "Recalcitrant",
+        "definition": "Refuses to obey"
+    },
+    {
+        "word": "Dogmatic",
+        "definition": "Unwilling to change beliefs"
+    },
+    {
+        "word": "Latent",
+        "definition": "Hidden but present"
+    },
+    {
+        "word": "Accolade",
+        "definition": "High praise or award"
+    },
+    {
+        "word": "Quagmire",
+        "definition": "Tough situation"
+    },
+    {
+        "word": "Ephemeral",
+        "definition": "Very short-lived"
+    },
+    {
+        "word": "Elucidate",
+        "definition": "Make clear"
+    },
+    {
+        "word": "Guile",
+        "definition": "Trickiness or deceit"
     }
 ]

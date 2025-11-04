@@ -28,15 +28,17 @@ struct WordWidgetView: View {
                 .minimumScaleFactor(0.2)
                 //.multilineTextAlignment(.center)
             
-            //Spacer()
+            Spacer()
             HStack {
                 Spacer()
                 
                 Image(ImageResource.miniIcon)
                     .resizable()
                     .frame(width:32, height: 32)
+                    .padding(.trailing, -5)
                     
             }
+            .padding(.bottom, -5)
         }
         .padding(.horizontal, 5)
         .foregroundColor(.accent)

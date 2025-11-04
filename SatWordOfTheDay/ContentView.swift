@@ -19,7 +19,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [.accent3, .accent2],
+                colors: [.accent3.opacity(0.8), .accent3],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
