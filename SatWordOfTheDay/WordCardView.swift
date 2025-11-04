@@ -16,7 +16,7 @@ struct WordCardView: View {
         VStack(spacing: 10) {
             Text(word)
                 .font(.system(size: 50))
-                .bold()
+                .fontWeight(.heavy)
                 .foregroundColor(.accentColor)
                 .lineLimit(1)
                 .minimumScaleFactor(0.2)

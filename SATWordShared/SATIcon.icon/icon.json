@@ -2,7 +2,7 @@
   "fill-specializations" : [
     {
       "value" : {
-        "automatic-gradient" : "display-p3:0.55809,0.70627,0.57176,0.45136"
+        "automatic-gradient" : "display-p3:0.48419,0.61275,0.49606,0.45136"
       }
     },
     {
@@ -17,7 +17,17 @@
       "layers" : [
         {
           "blend-mode" : "normal",
-          "fill" : "none",
+          "fill-specializations" : [
+            {
+              "value" : {
+                "solid" : "extended-gray:0.96245,1.00000"
+              }
+            },
+            {
+              "appearance" : "dark",
+              "value" : "none"
+            }
+          ],
           "glass" : true,
           "image-name" : "App2.png",
           "name" : "App2",

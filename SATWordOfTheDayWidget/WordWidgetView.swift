@@ -15,8 +15,8 @@ struct WordWidgetView: View {
         VStack(alignment: .leading) {
             Text(entry.word.word)
                 .font(.system(size: 35))
-                .bold()
                 .italic()
+                .fontWeight(.heavy)
                 .padding(.top, 12)
                 .padding(.bottom, 2)
                 .lineLimit(1)
