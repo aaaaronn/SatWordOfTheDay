@@ -11,6 +11,7 @@ struct WordCardView: View {
     let definition: String
 
     @State private var showDef: Bool = false
+    @State private var isKnown: Bool = false
 
     var body: some View {
         VStack(spacing: 10) {
@@ -33,13 +34,31 @@ struct WordCardView: View {
                     .foregroundColor(.accent2)
                     .transition(.slide.combined(with: .opacity))
             }
+            HStack {
+                //Color.clear.frame(width:66, height: 1)
+                
+                Button(action: {
+                    withAnimation(.easeOut(duration: 0.3)) {
+                        isKnown.toggle()
+                    }
+                }) {
+                    if (isKnown) {
+                        Text("Mark Learning")
+                    } else {
+                        Text("Mark Known")
+                    }
+                }
+                .padding(5)
+                .background(.accent3.opacity(0.4))
+                .cornerRadius(5)
+                .shadow(radius: 5, x: 5, y: 5)
+            }
+            .padding(.top, 6)
         }
         .padding(30)
         //.frame(maxWidth: 200)
-        //.accent4.opacity(0.8)
         .background(.accent4.opacity(0.8))
             
-        
         .cornerRadius(16)
         .shadow(radius: 5, x: 5, y: 5)
         .shadow(color: .white.opacity(0.5), radius: 3)
@@ -49,4 +68,8 @@ struct WordCardView: View {
             }
         }
     }
+}
+
+#Preview {
+    WordCardView(word: "word", definition: "wordy wordestiesd that words")
 }

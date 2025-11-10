@@ -54,16 +54,16 @@ struct WordWidgetView: View {
 #Preview(as: .systemSmall) {
     WordWidgetExtension()
 } timeline: {
-    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a word that words"))
+    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a word that words", isKnown: false))
 
-    WordEntry(date: .now + 1, word: SATWord(word: "Complacent", definition: "a word that words particularly well"))
+    WordEntry(date: .now + 1, word: SATWord(word: "Complacent", definition: "a word that words particularly well", isKnown: false))
 }
 
 
 #Preview(as: .systemMedium) {
     WordWidgetExtension()
 } timeline: {
-    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a common greeting"))
+    WordEntry(date: .now, word: SATWord(word: "Hello", definition: "a common greeting", isKnown: false))
 
-    WordEntry(date: .now + 1, word: SATWord(word: "Goodbye", definition: "a common parting"))
+    WordEntry(date: .now + 1, word: SATWord(word: "Goodbye", definition: "a common parting", isKnown: false))
 }

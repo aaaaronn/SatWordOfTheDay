@@ -19,7 +19,7 @@ struct WordProvider: TimelineProvider {
     
     private let placeholderEntry = WordEntry(
         date: Date(),
-        word: SATWord(word: "Placeholder", definition: "A temporary replacement")
+        word: SATWord(word: "Placeholder", definition: "A temporary replacement", isKnown: false)
     )
     
     func placeholder(in context: Context) -> WordEntry {
