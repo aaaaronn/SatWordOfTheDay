@@ -8,6 +8,7 @@ def randomize_words():
 
     random.shuffle(words)
 
+
     with open(PATH, 'w') as file:
         json.dump(words, file, indent=4)
 
@@ -16,6 +17,9 @@ def unrandomize_words():
         words = json.load(file)
 
     words.sort(key=lambda x: x['word'])
+
+    for d in words:
+        d["isKnown"] = False
 
     with open(PATH, 'w') as file:
         json.dump(words, file, indent=4)

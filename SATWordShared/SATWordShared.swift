@@ -10,6 +10,7 @@ import SwiftUI
 struct SATWord: Decodable, Equatable {
     let word: String
     let definition: String
+    let isKnown: Bool
 }
 
 // return words json with current word at center (words.count/2)
@@ -17,8 +18,9 @@ func GetSATWords() -> [SATWord]
 {
     if let url = Bundle.main.url(forResource: "sat_words", withExtension: "json") {
         if let data = try? Data(contentsOf: url) {
-            if let words = try? JSONDecoder().decode([SATWord].self, from: data) {
+            if var words = try? JSONDecoder().decode([SATWord].self, from: data) {
                 guard !words.isEmpty else { return [] }
+                words.removeAll(where: {$0.isKnown})
                 let startingDay = (Calendar.current.ordinality(of: .day, in: .year, for: Date()) ?? 1) % words.count
                 debugPrint("target center word: \(words[startingDay].word)")
                 // left side has bias

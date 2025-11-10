@@ -1,1086 +1,1357 @@
 [
     {
-        "word": "Insightful",
-        "definition": "Showing deep understanding"
-    },
-    {
-        "word": "Quell",
-        "definition": "To suppress; put an end to"
-    },
-    {
-        "word": "Compile",
-        "definition": "To collect and assemble"
-    },
-    {
-        "word": "Perspicacious",
-        "definition": "Keenly perceptive; insightful"
-    },
-    {
-        "word": "Influx",
-        "definition": "A flowing in; arrival in large numbers"
-    },
-    {
-        "word": "Repudiate",
-        "definition": "To reject or disown"
-    },
-    {
-        "word": "Coherent",
-        "definition": "Logical and consistent"
-    },
-    {
-        "word": "Wholly",
-        "definition": "Completely; entirely"
-    },
-    {
-        "word": "Concede",
-        "definition": "To admit or yield"
-    },
-    {
-        "word": "Innovative",
-        "definition": "New and creative"
-    },
-    {
-        "word": "Disproportionate",
-        "definition": "Too large or too small relative to something"
-    },
-    {
-        "word": "Distort",
-        "definition": "To twist; misrepresent"
-    },
-    {
-        "word": "Elicit",
-        "definition": "To draw out a response"
-    },
-    {
-        "word": "Abstain",
-        "definition": "To refrain deliberately"
-    },
-    {
-        "word": "Contend",
-        "definition": "To argue; to compete"
-    },
-    {
-        "word": "Abstract",
-        "definition": "Theoretical; not concrete"
-    },
-    {
-        "word": "Deter",
-        "definition": "To discourage or prevent"
-    },
-    {
-        "word": "Intricate",
-        "definition": "Complex; detailed"
-    },
-    {
-        "word": "Empirical",
-        "definition": "Based on observation or data"
-    },
-    {
-        "word": "Benevolent",
-        "definition": "Kind; charitable; well-meaning"
-    },
-    {
-        "word": "Vary",
-        "definition": "To change; differ"
-    },
-    {
-        "word": "Cumbersome",
-        "definition": "Bulky; hard to manage"
-    },
-    {
         "word": "Abate",
-        "definition": "To diminish in intensity or amount"
-    },
-    {
-        "word": "Explicit",
-        "definition": "Clear and direct"
-    },
-    {
-        "word": "Perfunctory",
-        "definition": "Done with little interest or effort"
-    },
-    {
-        "word": "Consensus",
-        "definition": "General agreement"
-    },
-    {
-        "word": "Squalid",
-        "definition": "Dirty; wretched; degraded"
-    },
-    {
-        "word": "Presume",
-        "definition": "To assume without proof"
-    },
-    {
-        "word": "Feeble",
-        "definition": "Weak; lacking strength"
-    },
-    {
-        "word": "Notion",
-        "definition": "A belief or idea; conception"
-    },
-    {
-        "word": "Lucrative",
-        "definition": "Profitable; producing wealth"
-    },
-    {
-        "word": "Speculate",
-        "definition": "To hypothesize; guess with reasoning"
-    },
-    {
-        "word": "Conjecture",
-        "definition": "An inference based on incomplete evidence"
-    },
-    {
-        "word": "Peril",
-        "definition": "Serious and immediate danger"
-    },
-    {
-        "word": "Bolster",
-        "definition": "To support or strengthen"
-    },
-    {
-        "word": "Invoke",
-        "definition": "To call upon; appeal to"
-    },
-    {
-        "word": "Mediocre",
-        "definition": "Average; of moderate quality"
-    },
-    {
-        "word": "Precise",
-        "definition": "Exact; accurate"
-    },
-    {
-        "word": "Affirm",
-        "definition": "To assert as true; uphold"
-    },
-    {
-        "word": "Interpret",
-        "definition": "To explain the meaning of"
-    },
-    {
-        "word": "Discrepancy",
-        "definition": "A difference or inconsistency"
-    },
-    {
-        "word": "Sustain",
-        "definition": "To support; maintain"
-    },
-    {
-        "word": "Demonstrate",
-        "definition": "To show clearly; prove"
-    },
-    {
-        "word": "Enigmatic",
-        "definition": "Mysterious; puzzling"
-    },
-    {
-        "word": "Sufficient",
-        "definition": "Enough to meet a need"
-    },
-    {
-        "word": "Redundant",
-        "definition": "Unnecessary; needlessly repetitive"
-    },
-    {
-        "word": "Confine",
-        "definition": "To keep within limits; restrict"
-    },
-    {
-        "word": "Solemn",
-        "definition": "Serious; formal; grave"
-    },
-    {
-        "word": "Tentative",
-        "definition": "Not final; subject to change"
-    },
-    {
-        "word": "Scrutinize",
-        "definition": "To examine closely"
-    },
-    {
-        "word": "Exemplify",
-        "definition": "To serve as an example"
-    },
-    {
-        "word": "Orient",
-        "definition": "To align or position; adjust"
-    },
-    {
-        "word": "Prevail",
-        "definition": "To triumph; be widespread"
-    },
-    {
-        "word": "Skeptical",
-        "definition": "Doubtful; questioning"
-    },
-    {
-        "word": "Intermittent",
-        "definition": "Occurring at intervals"
-    },
-    {
-        "word": "Subsequent",
-        "definition": "Following in time; later"
-    },
-    {
-        "word": "Fluctuate",
-        "definition": "To rise and fall irregularly"
-    },
-    {
-        "word": "Modify",
-        "definition": "To change slightly"
-    },
-    {
-        "word": "Obsolete",
-        "definition": "Out of date; no longer used"
-    },
-    {
-        "word": "Candid",
-        "definition": "Frank; honest; unreserved"
-    },
-    {
-        "word": "Convince",
-        "definition": "To persuade; cause belief"
-    },
-    {
-        "word": "Copious",
-        "definition": "Abundant; plentiful in number"
-    },
-    {
-        "word": "Erratic",
-        "definition": "Unpredictable; inconsistent"
-    },
-    {
-        "word": "Derive",
-        "definition": "To obtain from a source"
-    },
-    {
-        "word": "Uniform",
-        "definition": "Consistent; unvarying"
-    },
-    {
-        "word": "Sagacious",
-        "definition": "Wise; shrewd; showing good judgment"
-    },
-    {
-        "word": "Assert",
-        "definition": "To state confidently; declare"
-    },
-    {
-        "word": "Inevitable",
-        "definition": "Certain to happen"
-    },
-    {
-        "word": "Eminent",
-        "definition": "Famous; distinguished; prominent"
-    },
-    {
-        "word": "Invariably",
-        "definition": "Always; without exception"
-    },
-    {
-        "word": "Disparage",
-        "definition": "To belittle; criticize unfairly"
-    },
-    {
-        "word": "Infer",
-        "definition": "To conclude from evidence"
-    },
-    {
-        "word": "Antagonize",
-        "definition": "To provoke hostility; oppose"
-    },
-    {
-        "word": "Renowned",
-        "definition": "Famous; well-known"
-    },
-    {
-        "word": "Superfluous",
-        "definition": "Excessive; more than necessary"
-    },
-    {
-        "word": "Formulaic",
-        "definition": "Following a set pattern; unoriginal"
-    },
-    {
-        "word": "Obsequious",
-        "definition": "Excessively obedient; fawning"
-    },
-    {
-        "word": "Overt",
-        "definition": "Open; not hidden"
-    },
-    {
-        "word": "Constitute",
-        "definition": "To make up; form"
-    },
-    {
-        "word": "Oblique",
-        "definition": "Indirect; not straightforward"
-    },
-    {
-        "word": "Zealous",
-        "definition": "Passionately devoted"
-    },
-    {
-        "word": "Intend",
-        "definition": "To plan; mean"
-    },
-    {
-        "word": "Virtue",
-        "definition": "Moral excellence; good quality"
-    },
-    {
-        "word": "Yield",
-        "definition": "To produce; to give way"
-    },
-    {
-        "word": "Substantiate",
-        "definition": "To provide evidence for"
-    },
-    {
-        "word": "Plausible",
-        "definition": "Believable; seeming reasonable"
-    },
-    {
-        "word": "Stagnant",
-        "definition": "Not moving or developing"
-    },
-    {
-        "word": "Spontaneous",
-        "definition": "Unplanned; impulsive"
-    },
-    {
-        "word": "Provoke",
-        "definition": "To stir up; incite"
-    },
-    {
-        "word": "Complement",
-        "definition": "To complete or enhance"
-    },
-    {
-        "word": "Refute",
-        "definition": "To prove wrong; disprove"
-    },
-    {
-        "word": "Equanimity",
-        "definition": "Calmness under stress"
-    },
-    {
-        "word": "Endorse",
-        "definition": "To support or approve"
-    },
-    {
-        "word": "Viable",
-        "definition": "Workable; capable of success"
-    },
-    {
-        "word": "Vivid",
-        "definition": "Bright; clear; striking"
-    },
-    {
-        "word": "Justify",
-        "definition": "To give valid reasons for"
-    },
-    {
-        "word": "Reluctant",
-        "definition": "Unwilling; hesitant"
-    },
-    {
-        "word": "Static",
-        "definition": "Unchanging; stationary"
-    },
-    {
-        "word": "Fundamental",
-        "definition": "Basic; essential"
-    },
-    {
-        "word": "Debilitate",
-        "definition": "To weaken; enfeeble"
-    },
-    {
-        "word": "Counterargument",
-        "definition": "An opposing viewpoint"
-    },
-    {
-        "word": "Integrity",
-        "definition": "Honesty; moral uprightness"
-    },
-    {
-        "word": "Innate",
-        "definition": "Inborn; natural"
-    },
-    {
-        "word": "Inconsequential",
-        "definition": "Trivial; unimportant"
-    },
-    {
-        "word": "Distinguish",
-        "definition": "To tell apart; recognize differences"
-    },
-    {
-        "word": "Deliberate",
-        "definition": "Intentional; to consider carefully"
-    },
-    {
-        "word": "Resilient",
-        "definition": "Able to recover quickly"
-    },
-    {
-        "word": "Foster",
-        "definition": "To encourage; promote growth"
-    },
-    {
-        "word": "Indifferent",
-        "definition": "Unconcerned; apathetic"
-    },
-    {
-        "word": "Portray",
-        "definition": "To depict or describe"
-    },
-    {
-        "word": "Luminous",
-        "definition": "Emitting light; glowing"
-    },
-    {
-        "word": "Alleviate",
-        "definition": "To make less severe; relieve"
-    },
-    {
-        "word": "Vacuous",
-        "definition": "Empty; lacking thought or intelligence"
-    },
-    {
-        "word": "Obscure",
-        "definition": "Unclear; hidden; not well-known"
-    },
-    {
-        "word": "Prohibit",
-        "definition": "To forbid by law or rule"
-    },
-    {
-        "word": "Counter",
-        "definition": "To oppose; respond to"
-    },
-    {
-        "word": "Coerce",
-        "definition": "To compel by force or threat"
-    },
-    {
-        "word": "Concise",
-        "definition": "Brief yet complete; succinct"
-    },
-    {
-        "word": "Precede",
-        "definition": "To come before in time or order"
-    },
-    {
-        "word": "Didactic",
-        "definition": "Intended to teach; moralizing"
-    },
-    {
-        "word": "Terse",
-        "definition": "Brief and to the point"
-    },
-    {
-        "word": "Stringent",
-        "definition": "Strict; demanding"
-    },
-    {
-        "word": "Undermine",
-        "definition": "To weaken gradually"
-    },
-    {
-        "word": "Subtle",
-        "definition": "Not obvious; nuanced"
-    },
-    {
-        "word": "Predominant",
-        "definition": "Most common or powerful"
-    },
-    {
-        "word": "Mitigate",
-        "definition": "To make less severe; alleviate"
-    },
-    {
-        "word": "Optimistic",
-        "definition": "Hopeful; expecting good outcomes"
-    },
-    {
-        "word": "Caustic",
-        "definition": "Severely critical; sarcastic; corrosive"
-    },
-    {
-        "word": "Engender",
-        "definition": "To cause; give rise to"
-    },
-    {
-        "word": "Exhibit",
-        "definition": "To show or display"
-    },
-    {
-        "word": "Rational",
-        "definition": "Reasonable; based on logic"
-    },
-    {
-        "word": "Banal",
-        "definition": "Trite; lacking originality"
-    },
-    {
-        "word": "Meticulous",
-        "definition": "Very careful with details"
-    },
-    {
-        "word": "Debunk",
-        "definition": "To expose as false"
-    },
-    {
-        "word": "Rigorous",
-        "definition": "Strict; thorough; exacting"
-    },
-    {
-        "word": "Censure",
-        "definition": "To express strong disapproval; a rebuke"
-    },
-    {
-        "word": "Candor",
-        "definition": "Open and honest expression"
-    },
-    {
-        "word": "Debate",
-        "definition": "To argue formally; a discussion"
-    },
-    {
-        "word": "Inclination",
-        "definition": "A tendency or preference"
-    },
-    {
-        "word": "Deficit",
-        "definition": "Shortfall; amount lacking"
-    },
-    {
-        "word": "Retain",
-        "definition": "To keep; hold on to"
-    },
-    {
-        "word": "Bias",
-        "definition": "Prejudice or inclination for/against"
-    },
-    {
-        "word": "Vocation",
-        "definition": "Occupation; strong calling"
-    },
-    {
-        "word": "Suppress",
-        "definition": "To hold back; stop by force"
-    },
-    {
-        "word": "Disdain",
-        "definition": "Contempt; to scorn"
-    },
-    {
-        "word": "Exacerbate",
-        "definition": "To make worse"
-    },
-    {
-        "word": "Cogent",
-        "definition": "Persuasive; logically convincing"
-    },
-    {
-        "word": "Deviate",
-        "definition": "To depart from a course or norm"
-    },
-    {
-        "word": "Preliminary",
-        "definition": "Prior to the main part; preparatory"
-    },
-    {
-        "word": "Revere",
-        "definition": "To respect deeply; venerate"
-    },
-    {
-        "word": "Recalcitrant",
-        "definition": "Stubbornly disobedient; resistant"
-    },
-    {
-        "word": "Vigor",
-        "definition": "Physical or mental strength"
-    },
-    {
-        "word": "Dispel",
-        "definition": "To drive away; scatter"
-    },
-    {
-        "word": "Unprecedented",
-        "definition": "Never done or known before"
-    },
-    {
-        "word": "Minimize",
-        "definition": "To reduce to the smallest amount"
-    },
-    {
-        "word": "Corroborate",
-        "definition": "To confirm with evidence"
-    },
-    {
-        "word": "Summarize",
-        "definition": "To state the main points"
-    },
-    {
-        "word": "Obstruct",
-        "definition": "To block; hinder"
-    },
-    {
-        "word": "Irrelevant",
-        "definition": "Not related; off-topic"
-    },
-    {
-        "word": "Reinforce",
-        "definition": "To strengthen or support"
-    },
-    {
-        "word": "Embellish",
-        "definition": "To decorate; exaggerate details"
-    },
-    {
-        "word": "Ambiguous",
-        "definition": "Open to multiple interpretations"
-    },
-    {
-        "word": "Deference",
-        "definition": "Respectful submission; regard"
-    },
-    {
-        "word": "Distinct",
-        "definition": "Clearly separate; unmistakable"
-    },
-    {
-        "word": "Insinuate",
-        "definition": "To hint or suggest subtly"
-    },
-    {
-        "word": "Diverge",
-        "definition": "To move in different directions"
-    },
-    {
-        "word": "Reconcile",
-        "definition": "To restore harmony; settle"
-    },
-    {
-        "word": "Deceive",
-        "definition": "To mislead or trick"
-    },
-    {
-        "word": "Anticipate",
-        "definition": "To expect or foresee"
-    },
-    {
-        "word": "Restrained",
-        "definition": "Controlled; unemotional"
-    },
-    {
-        "word": "Enrich",
-        "definition": "To improve in quality or value"
-    },
-    {
-        "word": "Vacillate",
-        "definition": "To waver between choices"
-    },
-    {
-        "word": "Manipulate",
-        "definition": "To control cleverly or unfairly"
-    },
-    {
-        "word": "Culminate",
-        "definition": "To reach a climax or highest point"
-    },
-    {
-        "word": "Feasible",
-        "definition": "Possible; practicable"
-    },
-    {
-        "word": "Trepidation",
-        "definition": "Fear; apprehension"
-    },
-    {
-        "word": "Frivolous",
-        "definition": "Not serious; trivial"
-    },
-    {
-        "word": "Wary",
-        "definition": "Cautious; watchful"
-    },
-    {
-        "word": "Opaque",
-        "definition": "Not transparent; hard to understand"
-    },
-    {
-        "word": "Intensify",
-        "definition": "To increase in degree"
-    },
-    {
-        "word": "Remediate",
-        "definition": "To correct or improve a problem"
-    },
-    {
-        "word": "Arduous",
-        "definition": "Demanding great effort"
-    },
-    {
-        "word": "Assess",
-        "definition": "To evaluate or estimate"
-    },
-    {
-        "word": "Inhibit",
-        "definition": "To restrain; hold back"
-    },
-    {
-        "word": "Concrete",
-        "definition": "Specific; real; tangible"
-    },
-    {
-        "word": "Imply",
-        "definition": "To suggest without stating directly"
-    },
-    {
-        "word": "Cursory",
-        "definition": "Hasty and superficial"
-    },
-    {
-        "word": "Impartial",
-        "definition": "Fair; unbiased"
-    },
-    {
-        "word": "Vehement",
-        "definition": "Intense; forceful emotion"
-    },
-    {
-        "word": "Pseudonym",
-        "definition": "A fictitious name, especially by an author"
-    },
-    {
-        "word": "Pecuniary",
-        "definition": "Related to money"
-    },
-    {
-        "word": "Prompt",
-        "definition": "To cause or bring about; quick"
-    },
-    {
-        "word": "Artifact",
-        "definition": "An object made by humans, often historical"
-    },
-    {
-        "word": "Pragmatic",
-        "definition": "Practical; results-oriented"
-    },
-    {
-        "word": "Underscore",
-        "definition": "To emphasize; highlight"
-    },
-    {
-        "word": "Disposition",
-        "definition": "A person's temperament; tendency"
-    },
-    {
-        "word": "Authentic",
-        "definition": "Genuine; real; reliable"
-    },
-    {
-        "word": "Intact",
-        "definition": "Whole; undamaged"
-    },
-    {
-        "word": "Omit",
-        "definition": "To leave out; exclude"
-    },
-    {
-        "word": "Quintessential",
-        "definition": "Representing the most typical example"
-    },
-    {
-        "word": "Arbitrary",
-        "definition": "Based on random choice rather than reason"
-    },
-    {
-        "word": "Conventional",
-        "definition": "Traditional; customary"
-    },
-    {
-        "word": "Ambivalent",
-        "definition": "Having mixed or opposing feelings"
-    },
-    {
-        "word": "Apprehensive",
-        "definition": "Anxious or fearful about the future"
-    },
-    {
-        "word": "Pursue",
-        "definition": "To follow; seek to attain"
-    },
-    {
-        "word": "Contradict",
-        "definition": "To deny or oppose a statement"
-    },
-    {
-        "word": "Diligent",
-        "definition": "Hardworking; careful"
-    },
-    {
-        "word": "Establish",
-        "definition": "To set up; to prove"
-    },
-    {
-        "word": "Legitimate",
-        "definition": "Lawful; reasonable; valid"
-    },
-    {
-        "word": "Prolific",
-        "definition": "Highly productive or creative"
-    },
-    {
-        "word": "Detract",
-        "definition": "To reduce the value or quality of"
-    },
-    {
-        "word": "Ubiquitous",
-        "definition": "Present everywhere; widespread"
-    },
-    {
-        "word": "Chronological",
-        "definition": "Arranged in time order"
-    },
-    {
-        "word": "Aesthetic",
-        "definition": "Concerned with beauty or artistic taste"
-    },
-    {
-        "word": "Conspicuous",
-        "definition": "Clearly visible; noticeable"
-    },
-    {
-        "word": "Advocate",
-        "definition": "To support or argue for; a supporter"
-    },
-    {
-        "word": "Magnanimous",
-        "definition": "Generous, especially toward a rival"
-    },
-    {
-        "word": "Enhance",
-        "definition": "To improve; increase"
-    },
-    {
-        "word": "Criterion",
-        "definition": "A standard for judgment"
-    },
-    {
-        "word": "Convey",
-        "definition": "To communicate; transport"
-    },
-    {
-        "word": "Induce",
-        "definition": "To cause; bring about"
-    },
-    {
-        "word": "Enumerate",
-        "definition": "To list one by one"
-    },
-    {
-        "word": "Diminish",
-        "definition": "To lessen; reduce"
-    },
-    {
-        "word": "Qualify",
-        "definition": "To limit; to meet a standard"
-    },
-    {
-        "word": "Abundant",
-        "definition": "Plentiful; existing in large quantities"
-    },
-    {
-        "word": "Elucidate",
-        "definition": "To clarify; make plain"
-    },
-    {
-        "word": "Anomaly",
-        "definition": "Something unusual or unexpected"
-    },
-    {
-        "word": "Vindicate",
-        "definition": "To clear from blame; justify"
-    },
-    {
-        "word": "Atypical",
-        "definition": "Not representative; irregular"
-    },
-    {
-        "word": "Untenable",
-        "definition": "Indefensible; not viable"
-    },
-    {
-        "word": "Adept",
-        "definition": "Highly skilled; proficient"
-    },
-    {
-        "word": "Incessant",
-        "definition": "Unceasing; nonstop"
-    },
-    {
-        "word": "Intransigent",
-        "definition": "Uncompromising; inflexible"
-    },
-    {
-        "word": "Disparate",
-        "definition": "Essentially different; distinct"
-    },
-    {
-        "word": "Coincide",
-        "definition": "To occur at the same time; align"
-    },
-    {
-        "word": "Superficial",
-        "definition": "Shallow; concerned with surface only"
-    },
-    {
-        "word": "Denote",
-        "definition": "To indicate; signify"
-    },
-    {
-        "word": "Polarize",
-        "definition": "To divide into contrasting groups"
-    },
-    {
-        "word": "Competent",
-        "definition": "Capable; adequately skilled"
-    },
-    {
-        "word": "Sparse",
-        "definition": "Thinly distributed; scarce"
-    },
-    {
-        "word": "Demean",
-        "definition": "To degrade; belittle"
-    },
-    {
-        "word": "Comprehensive",
-        "definition": "Thorough; covering all aspects"
-    },
-    {
-        "word": "Degrade",
-        "definition": "To lower in dignity or quality"
+        "definition": "To diminish in intensity or amount",
+        "isKnown": false
     },
     {
         "word": "Aberration",
-        "definition": "A deviation from the norm"
+        "definition": "A deviation from the norm",
+        "isKnown": false
     },
     {
-        "word": "Conceive",
-        "definition": "To form or imagine an idea"
+        "word": "Abstain",
+        "definition": "To refrain deliberately",
+        "isKnown": false
     },
     {
-        "word": "Futile",
-        "definition": "Useless; incapable of producing result"
+        "word": "Abstract",
+        "definition": "Theoretical; not concrete",
+        "isKnown": false
     },
     {
-        "word": "Urge",
-        "definition": "To strongly encourage; a strong desire"
+        "word": "Abundant",
+        "definition": "Plentiful; existing in large quantities",
+        "isKnown": false
     },
     {
-        "word": "Resolve",
-        "definition": "To decide firmly; to solve"
-    },
-    {
-        "word": "Rhetoric",
-        "definition": "Effective or persuasive language"
-    },
-    {
-        "word": "Amiable",
-        "definition": "Friendly; good-natured"
-    },
-    {
-        "word": "Diverse",
-        "definition": "Varied; of different kinds"
-    },
-    {
-        "word": "Condone",
-        "definition": "To accept or allow"
-    },
-    {
-        "word": "Malleable",
-        "definition": "Easily shaped; adaptable"
-    },
-    {
-        "word": "Divulge",
-        "definition": "To reveal private or secret information"
-    },
-    {
-        "word": "Integrate",
-        "definition": "To combine into a whole"
-    },
-    {
-        "word": "Vital",
-        "definition": "Extremely important; essential"
-    },
-    {
-        "word": "Avert",
-        "definition": "To prevent or ward off"
-    },
-    {
-        "word": "Catalyst",
-        "definition": "Something that speeds change"
-    },
-    {
-        "word": "Astonish",
-        "definition": "To greatly surprise"
-    },
-    {
-        "word": "Definitive",
-        "definition": "Authoritative; conclusive"
-    },
-    {
-        "word": "Incentive",
-        "definition": "A motivating factor"
-    },
-    {
-        "word": "Fastidious",
-        "definition": "Hard to please; meticulous"
-    },
-    {
-        "word": "Evoke",
-        "definition": "To bring to mind; elicit"
-    },
-    {
-        "word": "Depict",
-        "definition": "To represent or portray"
-    },
-    {
-        "word": "Perceive",
-        "definition": "To become aware of; interpret"
-    },
-    {
-        "word": "Dissent",
-        "definition": "To disagree; disagreement"
-    },
-    {
-        "word": "Potent",
-        "definition": "Powerful; effective"
-    },
-    {
-        "word": "Confer",
-        "definition": "To discuss; to grant"
-    },
-    {
-        "word": "Deleterious",
-        "definition": "Harmful; damaging"
+        "word": "Adept",
+        "definition": "Highly skilled; proficient",
+        "isKnown": false
     },
     {
         "word": "Adversarial",
-        "definition": "Involving conflict or opposition"
+        "definition": "Involving conflict or opposition",
+        "isKnown": false
+    },
+    {
+        "word": "Advocate",
+        "definition": "To support or argue for; a supporter",
+        "isKnown": false
+    },
+    {
+        "word": "Aesthetic",
+        "definition": "Concerned with beauty or artistic taste",
+        "isKnown": false
+    },
+    {
+        "word": "Affirm",
+        "definition": "To assert as true; uphold",
+        "isKnown": false
+    },
+    {
+        "word": "Alleviate",
+        "definition": "To make less severe; relieve",
+        "isKnown": false
+    },
+    {
+        "word": "Ambiguous",
+        "definition": "Open to multiple interpretations",
+        "isKnown": false
+    },
+    {
+        "word": "Ambivalent",
+        "definition": "Having mixed or opposing feelings",
+        "isKnown": false
+    },
+    {
+        "word": "Amiable",
+        "definition": "Friendly; good-natured",
+        "isKnown": false
+    },
+    {
+        "word": "Anomaly",
+        "definition": "Something unusual or unexpected",
+        "isKnown": false
+    },
+    {
+        "word": "Antagonize",
+        "definition": "To provoke hostility; oppose",
+        "isKnown": false
+    },
+    {
+        "word": "Anticipate",
+        "definition": "To expect or foresee",
+        "isKnown": false
+    },
+    {
+        "word": "Apprehensive",
+        "definition": "Anxious or fearful about the future",
+        "isKnown": false
+    },
+    {
+        "word": "Arbitrary",
+        "definition": "Based on random choice rather than reason",
+        "isKnown": false
+    },
+    {
+        "word": "Arduous",
+        "definition": "Demanding great effort",
+        "isKnown": false
+    },
+    {
+        "word": "Artifact",
+        "definition": "An object made by humans, often historical",
+        "isKnown": false
+    },
+    {
+        "word": "Assert",
+        "definition": "To state confidently; declare",
+        "isKnown": false
+    },
+    {
+        "word": "Assess",
+        "definition": "To evaluate or estimate",
+        "isKnown": false
+    },
+    {
+        "word": "Astonish",
+        "definition": "To greatly surprise",
+        "isKnown": false
+    },
+    {
+        "word": "Atypical",
+        "definition": "Not representative; irregular",
+        "isKnown": false
+    },
+    {
+        "word": "Authentic",
+        "definition": "Genuine; real; reliable",
+        "isKnown": false
+    },
+    {
+        "word": "Avert",
+        "definition": "To prevent or ward off",
+        "isKnown": false
+    },
+    {
+        "word": "Banal",
+        "definition": "Trite; lacking originality",
+        "isKnown": false
+    },
+    {
+        "word": "Benevolent",
+        "definition": "Kind; charitable; well-meaning",
+        "isKnown": false
+    },
+    {
+        "word": "Bias",
+        "definition": "Prejudice or inclination for/against",
+        "isKnown": false
+    },
+    {
+        "word": "Bolster",
+        "definition": "To support or strengthen",
+        "isKnown": false
+    },
+    {
+        "word": "Candid",
+        "definition": "Frank; honest; unreserved",
+        "isKnown": false
+    },
+    {
+        "word": "Candor",
+        "definition": "Open and honest expression",
+        "isKnown": false
+    },
+    {
+        "word": "Catalyst",
+        "definition": "Something that speeds change",
+        "isKnown": false
+    },
+    {
+        "word": "Caustic",
+        "definition": "Severely critical; sarcastic; corrosive",
+        "isKnown": false
+    },
+    {
+        "word": "Censure",
+        "definition": "To express strong disapproval; a rebuke",
+        "isKnown": false
+    },
+    {
+        "word": "Chronological",
+        "definition": "Arranged in time order",
+        "isKnown": false
+    },
+    {
+        "word": "Coerce",
+        "definition": "To compel by force or threat",
+        "isKnown": false
+    },
+    {
+        "word": "Cogent",
+        "definition": "Persuasive; logically convincing",
+        "isKnown": false
+    },
+    {
+        "word": "Coherent",
+        "definition": "Logical and consistent",
+        "isKnown": false
+    },
+    {
+        "word": "Coincide",
+        "definition": "To occur at the same time; align",
+        "isKnown": false
+    },
+    {
+        "word": "Competent",
+        "definition": "Capable; adequately skilled",
+        "isKnown": false
+    },
+    {
+        "word": "Compile",
+        "definition": "To collect and assemble",
+        "isKnown": false
+    },
+    {
+        "word": "Complement",
+        "definition": "To complete or enhance",
+        "isKnown": false
+    },
+    {
+        "word": "Comprehensive",
+        "definition": "Thorough; covering all aspects",
+        "isKnown": false
+    },
+    {
+        "word": "Concede",
+        "definition": "To admit or yield",
+        "isKnown": false
+    },
+    {
+        "word": "Conceive",
+        "definition": "To form or imagine an idea",
+        "isKnown": false
+    },
+    {
+        "word": "Concise",
+        "definition": "Brief yet complete; succinct",
+        "isKnown": false
+    },
+    {
+        "word": "Concrete",
+        "definition": "Specific; real; tangible",
+        "isKnown": false
+    },
+    {
+        "word": "Condone",
+        "definition": "To accept or allow",
+        "isKnown": false
+    },
+    {
+        "word": "Confer",
+        "definition": "To discuss; to grant",
+        "isKnown": false
+    },
+    {
+        "word": "Confine",
+        "definition": "To keep within limits; restrict",
+        "isKnown": false
+    },
+    {
+        "word": "Conjecture",
+        "definition": "An inference based on incomplete evidence",
+        "isKnown": false
+    },
+    {
+        "word": "Consensus",
+        "definition": "General agreement",
+        "isKnown": false
+    },
+    {
+        "word": "Conspicuous",
+        "definition": "Clearly visible; noticeable",
+        "isKnown": false
+    },
+    {
+        "word": "Constitute",
+        "definition": "To make up; form",
+        "isKnown": false
+    },
+    {
+        "word": "Contend",
+        "definition": "To argue; to compete",
+        "isKnown": false
+    },
+    {
+        "word": "Contradict",
+        "definition": "To deny or oppose a statement",
+        "isKnown": false
+    },
+    {
+        "word": "Conventional",
+        "definition": "Traditional; customary",
+        "isKnown": false
+    },
+    {
+        "word": "Convey",
+        "definition": "To communicate; transport",
+        "isKnown": false
+    },
+    {
+        "word": "Convince",
+        "definition": "To persuade; cause belief",
+        "isKnown": false
+    },
+    {
+        "word": "Copious",
+        "definition": "Abundant; plentiful in number",
+        "isKnown": false
+    },
+    {
+        "word": "Corroborate",
+        "definition": "To confirm with evidence",
+        "isKnown": false
+    },
+    {
+        "word": "Counter",
+        "definition": "To oppose; respond to",
+        "isKnown": false
+    },
+    {
+        "word": "Counterargument",
+        "definition": "An opposing viewpoint",
+        "isKnown": false
+    },
+    {
+        "word": "Criterion",
+        "definition": "A standard for judgment",
+        "isKnown": false
+    },
+    {
+        "word": "Culminate",
+        "definition": "To reach a climax or highest point",
+        "isKnown": false
+    },
+    {
+        "word": "Cumbersome",
+        "definition": "Bulky; hard to manage",
+        "isKnown": false
+    },
+    {
+        "word": "Cursory",
+        "definition": "Hasty and superficial",
+        "isKnown": false
+    },
+    {
+        "word": "Debate",
+        "definition": "To argue formally; a discussion",
+        "isKnown": false
+    },
+    {
+        "word": "Debilitate",
+        "definition": "To weaken; enfeeble",
+        "isKnown": false
+    },
+    {
+        "word": "Debunk",
+        "definition": "To expose as false",
+        "isKnown": false
+    },
+    {
+        "word": "Deceive",
+        "definition": "To mislead or trick",
+        "isKnown": false
+    },
+    {
+        "word": "Deference",
+        "definition": "Respectful submission; regard",
+        "isKnown": false
+    },
+    {
+        "word": "Deficit",
+        "definition": "Shortfall; amount lacking",
+        "isKnown": false
+    },
+    {
+        "word": "Definitive",
+        "definition": "Authoritative; conclusive",
+        "isKnown": false
+    },
+    {
+        "word": "Degrade",
+        "definition": "To lower in dignity or quality",
+        "isKnown": false
+    },
+    {
+        "word": "Deleterious",
+        "definition": "Harmful; damaging",
+        "isKnown": false
+    },
+    {
+        "word": "Deliberate",
+        "definition": "Intentional; to consider carefully",
+        "isKnown": false
+    },
+    {
+        "word": "Demean",
+        "definition": "To degrade; belittle",
+        "isKnown": false
+    },
+    {
+        "word": "Demonstrate",
+        "definition": "To show clearly; prove",
+        "isKnown": false
+    },
+    {
+        "word": "Denote",
+        "definition": "To indicate; signify",
+        "isKnown": false
+    },
+    {
+        "word": "Depict",
+        "definition": "To represent or portray",
+        "isKnown": false
+    },
+    {
+        "word": "Derive",
+        "definition": "To obtain from a source",
+        "isKnown": false
+    },
+    {
+        "word": "Deter",
+        "definition": "To discourage or prevent",
+        "isKnown": false
+    },
+    {
+        "word": "Detract",
+        "definition": "To reduce the value or quality of",
+        "isKnown": false
+    },
+    {
+        "word": "Deviate",
+        "definition": "To depart from a course or norm",
+        "isKnown": false
+    },
+    {
+        "word": "Didactic",
+        "definition": "Intended to teach; moralizing",
+        "isKnown": false
+    },
+    {
+        "word": "Diligent",
+        "definition": "Hardworking; careful",
+        "isKnown": false
+    },
+    {
+        "word": "Diminish",
+        "definition": "To lessen; reduce",
+        "isKnown": false
+    },
+    {
+        "word": "Discrepancy",
+        "definition": "A difference or inconsistency",
+        "isKnown": false
+    },
+    {
+        "word": "Disdain",
+        "definition": "Contempt; to scorn",
+        "isKnown": false
+    },
+    {
+        "word": "Disparage",
+        "definition": "To belittle; criticize unfairly",
+        "isKnown": false
+    },
+    {
+        "word": "Disparate",
+        "definition": "Essentially different; distinct",
+        "isKnown": false
+    },
+    {
+        "word": "Dispel",
+        "definition": "To drive away; scatter",
+        "isKnown": false
+    },
+    {
+        "word": "Disposition",
+        "definition": "A person's temperament; tendency",
+        "isKnown": false
+    },
+    {
+        "word": "Disproportionate",
+        "definition": "Too large or too small relative to something",
+        "isKnown": false
+    },
+    {
+        "word": "Dissent",
+        "definition": "To disagree; disagreement",
+        "isKnown": false
+    },
+    {
+        "word": "Distinct",
+        "definition": "Clearly separate; unmistakable",
+        "isKnown": false
+    },
+    {
+        "word": "Distinguish",
+        "definition": "To tell apart; recognize differences",
+        "isKnown": false
+    },
+    {
+        "word": "Distort",
+        "definition": "To twist; misrepresent",
+        "isKnown": false
+    },
+    {
+        "word": "Diverge",
+        "definition": "To move in different directions",
+        "isKnown": false
+    },
+    {
+        "word": "Diverse",
+        "definition": "Varied; of different kinds",
+        "isKnown": false
+    },
+    {
+        "word": "Divulge",
+        "definition": "To reveal private or secret information",
+        "isKnown": false
+    },
+    {
+        "word": "Elicit",
+        "definition": "To draw out a response",
+        "isKnown": false
+    },
+    {
+        "word": "Elucidate",
+        "definition": "To clarify; make plain",
+        "isKnown": false
+    },
+    {
+        "word": "Embellish",
+        "definition": "To decorate; exaggerate details",
+        "isKnown": false
+    },
+    {
+        "word": "Eminent",
+        "definition": "Famous; distinguished; prominent",
+        "isKnown": false
+    },
+    {
+        "word": "Empirical",
+        "definition": "Based on observation or data",
+        "isKnown": false
+    },
+    {
+        "word": "Endorse",
+        "definition": "To support or approve",
+        "isKnown": false
+    },
+    {
+        "word": "Engender",
+        "definition": "To cause; give rise to",
+        "isKnown": false
+    },
+    {
+        "word": "Enhance",
+        "definition": "To improve; increase",
+        "isKnown": false
+    },
+    {
+        "word": "Enigmatic",
+        "definition": "Mysterious; puzzling",
+        "isKnown": false
+    },
+    {
+        "word": "Enrich",
+        "definition": "To improve in quality or value",
+        "isKnown": false
+    },
+    {
+        "word": "Enumerate",
+        "definition": "To list one by one",
+        "isKnown": false
+    },
+    {
+        "word": "Equanimity",
+        "definition": "Calmness under stress",
+        "isKnown": false
+    },
+    {
+        "word": "Erratic",
+        "definition": "Unpredictable; inconsistent",
+        "isKnown": false
+    },
+    {
+        "word": "Establish",
+        "definition": "To set up; to prove",
+        "isKnown": false
+    },
+    {
+        "word": "Evoke",
+        "definition": "To bring to mind; elicit",
+        "isKnown": false
+    },
+    {
+        "word": "Exacerbate",
+        "definition": "To make worse",
+        "isKnown": false
+    },
+    {
+        "word": "Exemplify",
+        "definition": "To serve as an example",
+        "isKnown": false
+    },
+    {
+        "word": "Exhibit",
+        "definition": "To show or display",
+        "isKnown": false
+    },
+    {
+        "word": "Explicit",
+        "definition": "Clear and direct",
+        "isKnown": false
+    },
+    {
+        "word": "Fastidious",
+        "definition": "Hard to please; meticulous",
+        "isKnown": false
+    },
+    {
+        "word": "Feasible",
+        "definition": "Possible; practicable",
+        "isKnown": false
+    },
+    {
+        "word": "Feeble",
+        "definition": "Weak; lacking strength",
+        "isKnown": false
+    },
+    {
+        "word": "Fluctuate",
+        "definition": "To rise and fall irregularly",
+        "isKnown": false
+    },
+    {
+        "word": "Formulaic",
+        "definition": "Following a set pattern; unoriginal",
+        "isKnown": false
+    },
+    {
+        "word": "Foster",
+        "definition": "To encourage; promote growth",
+        "isKnown": false
+    },
+    {
+        "word": "Frivolous",
+        "definition": "Not serious; trivial",
+        "isKnown": false
+    },
+    {
+        "word": "Fundamental",
+        "definition": "Basic; essential",
+        "isKnown": false
+    },
+    {
+        "word": "Futile",
+        "definition": "Useless; incapable of producing result",
+        "isKnown": false
+    },
+    {
+        "word": "Impartial",
+        "definition": "Fair; unbiased",
+        "isKnown": false
+    },
+    {
+        "word": "Imply",
+        "definition": "To suggest without stating directly",
+        "isKnown": false
+    },
+    {
+        "word": "Incentive",
+        "definition": "A motivating factor",
+        "isKnown": false
+    },
+    {
+        "word": "Incessant",
+        "definition": "Unceasing; nonstop",
+        "isKnown": false
+    },
+    {
+        "word": "Inclination",
+        "definition": "A tendency or preference",
+        "isKnown": false
+    },
+    {
+        "word": "Inconsequential",
+        "definition": "Trivial; unimportant",
+        "isKnown": false
+    },
+    {
+        "word": "Indifferent",
+        "definition": "Unconcerned; apathetic",
+        "isKnown": false
+    },
+    {
+        "word": "Induce",
+        "definition": "To cause; bring about",
+        "isKnown": false
+    },
+    {
+        "word": "Inevitable",
+        "definition": "Certain to happen",
+        "isKnown": false
+    },
+    {
+        "word": "Infer",
+        "definition": "To conclude from evidence",
+        "isKnown": false
+    },
+    {
+        "word": "Influx",
+        "definition": "A flowing in; arrival in large numbers",
+        "isKnown": false
+    },
+    {
+        "word": "Inhibit",
+        "definition": "To restrain; hold back",
+        "isKnown": false
+    },
+    {
+        "word": "Innate",
+        "definition": "Inborn; natural",
+        "isKnown": false
+    },
+    {
+        "word": "Innovative",
+        "definition": "New and creative",
+        "isKnown": false
+    },
+    {
+        "word": "Insightful",
+        "definition": "Showing deep understanding",
+        "isKnown": false
+    },
+    {
+        "word": "Insinuate",
+        "definition": "To hint or suggest subtly",
+        "isKnown": false
+    },
+    {
+        "word": "Intact",
+        "definition": "Whole; undamaged",
+        "isKnown": false
+    },
+    {
+        "word": "Integrate",
+        "definition": "To combine into a whole",
+        "isKnown": false
+    },
+    {
+        "word": "Integrity",
+        "definition": "Honesty; moral uprightness",
+        "isKnown": false
+    },
+    {
+        "word": "Intend",
+        "definition": "To plan; mean",
+        "isKnown": false
+    },
+    {
+        "word": "Intensify",
+        "definition": "To increase in degree",
+        "isKnown": false
+    },
+    {
+        "word": "Intermittent",
+        "definition": "Occurring at intervals",
+        "isKnown": false
+    },
+    {
+        "word": "Interpret",
+        "definition": "To explain the meaning of",
+        "isKnown": false
+    },
+    {
+        "word": "Intransigent",
+        "definition": "Uncompromising; inflexible",
+        "isKnown": false
+    },
+    {
+        "word": "Intricate",
+        "definition": "Complex; detailed",
+        "isKnown": false
+    },
+    {
+        "word": "Invariably",
+        "definition": "Always; without exception",
+        "isKnown": false
+    },
+    {
+        "word": "Invoke",
+        "definition": "To call upon; appeal to",
+        "isKnown": false
+    },
+    {
+        "word": "Irrelevant",
+        "definition": "Not related; off-topic",
+        "isKnown": false
+    },
+    {
+        "word": "Justify",
+        "definition": "To give valid reasons for",
+        "isKnown": false
+    },
+    {
+        "word": "Legitimate",
+        "definition": "Lawful; reasonable; valid",
+        "isKnown": false
+    },
+    {
+        "word": "Lucrative",
+        "definition": "Profitable; producing wealth",
+        "isKnown": false
+    },
+    {
+        "word": "Luminous",
+        "definition": "Emitting light; glowing",
+        "isKnown": false
+    },
+    {
+        "word": "Magnanimous",
+        "definition": "Generous, especially toward a rival",
+        "isKnown": false
+    },
+    {
+        "word": "Malleable",
+        "definition": "Easily shaped; adaptable",
+        "isKnown": false
+    },
+    {
+        "word": "Manipulate",
+        "definition": "To control cleverly or unfairly",
+        "isKnown": false
+    },
+    {
+        "word": "Mediocre",
+        "definition": "Average; of moderate quality",
+        "isKnown": false
+    },
+    {
+        "word": "Meticulous",
+        "definition": "Very careful with details",
+        "isKnown": false
+    },
+    {
+        "word": "Minimize",
+        "definition": "To reduce to the smallest amount",
+        "isKnown": false
+    },
+    {
+        "word": "Mitigate",
+        "definition": "To make less severe; alleviate",
+        "isKnown": false
+    },
+    {
+        "word": "Modify",
+        "definition": "To change slightly",
+        "isKnown": false
+    },
+    {
+        "word": "Notion",
+        "definition": "A belief or idea; conception",
+        "isKnown": false
+    },
+    {
+        "word": "Oblique",
+        "definition": "Indirect; not straightforward",
+        "isKnown": false
+    },
+    {
+        "word": "Obscure",
+        "definition": "Unclear; hidden; not well-known",
+        "isKnown": false
+    },
+    {
+        "word": "Obsequious",
+        "definition": "Excessively obedient; fawning",
+        "isKnown": false
+    },
+    {
+        "word": "Obsolete",
+        "definition": "Out of date; no longer used",
+        "isKnown": false
+    },
+    {
+        "word": "Obstruct",
+        "definition": "To block; hinder",
+        "isKnown": false
+    },
+    {
+        "word": "Omit",
+        "definition": "To leave out; exclude",
+        "isKnown": false
+    },
+    {
+        "word": "Opaque",
+        "definition": "Not transparent; hard to understand",
+        "isKnown": false
+    },
+    {
+        "word": "Optimistic",
+        "definition": "Hopeful; expecting good outcomes",
+        "isKnown": false
+    },
+    {
+        "word": "Orient",
+        "definition": "To align or position; adjust",
+        "isKnown": false
+    },
+    {
+        "word": "Overt",
+        "definition": "Open; not hidden",
+        "isKnown": false
+    },
+    {
+        "word": "Pecuniary",
+        "definition": "Related to money",
+        "isKnown": false
+    },
+    {
+        "word": "Perceive",
+        "definition": "To become aware of; interpret",
+        "isKnown": false
+    },
+    {
+        "word": "Perfunctory",
+        "definition": "Done with little interest or effort",
+        "isKnown": false
+    },
+    {
+        "word": "Peril",
+        "definition": "Serious and immediate danger",
+        "isKnown": false
+    },
+    {
+        "word": "Perspicacious",
+        "definition": "Keenly perceptive; insightful",
+        "isKnown": false
+    },
+    {
+        "word": "Plausible",
+        "definition": "Believable; seeming reasonable",
+        "isKnown": false
+    },
+    {
+        "word": "Polarize",
+        "definition": "To divide into contrasting groups",
+        "isKnown": false
+    },
+    {
+        "word": "Portray",
+        "definition": "To depict or describe",
+        "isKnown": false
+    },
+    {
+        "word": "Potent",
+        "definition": "Powerful; effective",
+        "isKnown": false
+    },
+    {
+        "word": "Pragmatic",
+        "definition": "Practical; results-oriented",
+        "isKnown": false
+    },
+    {
+        "word": "Precede",
+        "definition": "To come before in time or order",
+        "isKnown": false
+    },
+    {
+        "word": "Precise",
+        "definition": "Exact; accurate",
+        "isKnown": false
+    },
+    {
+        "word": "Predominant",
+        "definition": "Most common or powerful",
+        "isKnown": false
+    },
+    {
+        "word": "Preliminary",
+        "definition": "Prior to the main part; preparatory",
+        "isKnown": false
+    },
+    {
+        "word": "Presume",
+        "definition": "To assume without proof",
+        "isKnown": false
+    },
+    {
+        "word": "Prevail",
+        "definition": "To triumph; be widespread",
+        "isKnown": false
+    },
+    {
+        "word": "Prohibit",
+        "definition": "To forbid by law or rule",
+        "isKnown": false
+    },
+    {
+        "word": "Prolific",
+        "definition": "Highly productive or creative",
+        "isKnown": false
+    },
+    {
+        "word": "Prompt",
+        "definition": "To cause or bring about; quick",
+        "isKnown": false
+    },
+    {
+        "word": "Provoke",
+        "definition": "To stir up; incite",
+        "isKnown": false
+    },
+    {
+        "word": "Pseudonym",
+        "definition": "A fictitious name, especially by an author",
+        "isKnown": false
+    },
+    {
+        "word": "Pursue",
+        "definition": "To follow; seek to attain",
+        "isKnown": false
+    },
+    {
+        "word": "Qualify",
+        "definition": "To limit; to meet a standard",
+        "isKnown": false
+    },
+    {
+        "word": "Quell",
+        "definition": "To suppress; put an end to",
+        "isKnown": false
+    },
+    {
+        "word": "Quintessential",
+        "definition": "Representing the most typical example",
+        "isKnown": false
+    },
+    {
+        "word": "Rational",
+        "definition": "Reasonable; based on logic",
+        "isKnown": false
+    },
+    {
+        "word": "Recalcitrant",
+        "definition": "Stubbornly disobedient; resistant",
+        "isKnown": false
+    },
+    {
+        "word": "Reconcile",
+        "definition": "To restore harmony; settle",
+        "isKnown": false
+    },
+    {
+        "word": "Redundant",
+        "definition": "Unnecessary; needlessly repetitive",
+        "isKnown": false
+    },
+    {
+        "word": "Refute",
+        "definition": "To prove wrong; disprove",
+        "isKnown": false
+    },
+    {
+        "word": "Reinforce",
+        "definition": "To strengthen or support",
+        "isKnown": false
+    },
+    {
+        "word": "Reluctant",
+        "definition": "Unwilling; hesitant",
+        "isKnown": false
+    },
+    {
+        "word": "Remediate",
+        "definition": "To correct or improve a problem",
+        "isKnown": false
+    },
+    {
+        "word": "Renowned",
+        "definition": "Famous; well-known",
+        "isKnown": false
+    },
+    {
+        "word": "Repudiate",
+        "definition": "To reject or disown",
+        "isKnown": false
+    },
+    {
+        "word": "Resilient",
+        "definition": "Able to recover quickly",
+        "isKnown": false
+    },
+    {
+        "word": "Resolve",
+        "definition": "To decide firmly; to solve",
+        "isKnown": false
+    },
+    {
+        "word": "Restrained",
+        "definition": "Controlled; unemotional",
+        "isKnown": false
+    },
+    {
+        "word": "Retain",
+        "definition": "To keep; hold on to",
+        "isKnown": false
+    },
+    {
+        "word": "Revere",
+        "definition": "To respect deeply; venerate",
+        "isKnown": false
+    },
+    {
+        "word": "Rhetoric",
+        "definition": "Effective or persuasive language",
+        "isKnown": false
+    },
+    {
+        "word": "Rigorous",
+        "definition": "Strict; thorough; exacting",
+        "isKnown": false
+    },
+    {
+        "word": "Sagacious",
+        "definition": "Wise; shrewd; showing good judgment",
+        "isKnown": false
+    },
+    {
+        "word": "Scrutinize",
+        "definition": "To examine closely",
+        "isKnown": false
+    },
+    {
+        "word": "Skeptical",
+        "definition": "Doubtful; questioning",
+        "isKnown": false
+    },
+    {
+        "word": "Solemn",
+        "definition": "Serious; formal; grave",
+        "isKnown": false
+    },
+    {
+        "word": "Sparse",
+        "definition": "Thinly distributed; scarce",
+        "isKnown": false
+    },
+    {
+        "word": "Speculate",
+        "definition": "To hypothesize; guess with reasoning",
+        "isKnown": false
+    },
+    {
+        "word": "Spontaneous",
+        "definition": "Unplanned; impulsive",
+        "isKnown": false
+    },
+    {
+        "word": "Squalid",
+        "definition": "Dirty; wretched; degraded",
+        "isKnown": false
+    },
+    {
+        "word": "Stagnant",
+        "definition": "Not moving or developing",
+        "isKnown": false
+    },
+    {
+        "word": "Static",
+        "definition": "Unchanging; stationary",
+        "isKnown": false
+    },
+    {
+        "word": "Stringent",
+        "definition": "Strict; demanding",
+        "isKnown": false
+    },
+    {
+        "word": "Subsequent",
+        "definition": "Following in time; later",
+        "isKnown": false
+    },
+    {
+        "word": "Substantiate",
+        "definition": "To provide evidence for",
+        "isKnown": false
+    },
+    {
+        "word": "Subtle",
+        "definition": "Not obvious; nuanced",
+        "isKnown": false
+    },
+    {
+        "word": "Sufficient",
+        "definition": "Enough to meet a need",
+        "isKnown": false
+    },
+    {
+        "word": "Summarize",
+        "definition": "To state the main points",
+        "isKnown": false
+    },
+    {
+        "word": "Superficial",
+        "definition": "Shallow; concerned with surface only",
+        "isKnown": false
+    },
+    {
+        "word": "Superfluous",
+        "definition": "Excessive; more than necessary",
+        "isKnown": false
+    },
+    {
+        "word": "Suppress",
+        "definition": "To hold back; stop by force",
+        "isKnown": false
+    },
+    {
+        "word": "Sustain",
+        "definition": "To support; maintain",
+        "isKnown": false
+    },
+    {
+        "word": "Tentative",
+        "definition": "Not final; subject to change",
+        "isKnown": false
+    },
+    {
+        "word": "Terse",
+        "definition": "Brief and to the point",
+        "isKnown": false
+    },
+    {
+        "word": "Trepidation",
+        "definition": "Fear; apprehension",
+        "isKnown": false
+    },
+    {
+        "word": "Ubiquitous",
+        "definition": "Present everywhere; widespread",
+        "isKnown": false
+    },
+    {
+        "word": "Undermine",
+        "definition": "To weaken gradually",
+        "isKnown": false
+    },
+    {
+        "word": "Underscore",
+        "definition": "To emphasize; highlight",
+        "isKnown": false
+    },
+    {
+        "word": "Uniform",
+        "definition": "Consistent; unvarying",
+        "isKnown": false
+    },
+    {
+        "word": "Unprecedented",
+        "definition": "Never done or known before",
+        "isKnown": false
+    },
+    {
+        "word": "Untenable",
+        "definition": "Indefensible; not viable",
+        "isKnown": false
+    },
+    {
+        "word": "Urge",
+        "definition": "To strongly encourage; a strong desire",
+        "isKnown": false
+    },
+    {
+        "word": "Vacillate",
+        "definition": "To waver between choices",
+        "isKnown": false
+    },
+    {
+        "word": "Vacuous",
+        "definition": "Empty; lacking thought or intelligence",
+        "isKnown": false
     },
     {
         "word": "Validate",
-        "definition": "To confirm; verify"
+        "definition": "To confirm; verify",
+        "isKnown": false
+    },
+    {
+        "word": "Vary",
+        "definition": "To change; differ",
+        "isKnown": false
+    },
+    {
+        "word": "Vehement",
+        "definition": "Intense; forceful emotion",
+        "isKnown": false
+    },
+    {
+        "word": "Viable",
+        "definition": "Workable; capable of success",
+        "isKnown": false
+    },
+    {
+        "word": "Vigor",
+        "definition": "Physical or mental strength",
+        "isKnown": false
+    },
+    {
+        "word": "Vindicate",
+        "definition": "To clear from blame; justify",
+        "isKnown": false
+    },
+    {
+        "word": "Virtue",
+        "definition": "Moral excellence; good quality",
+        "isKnown": false
+    },
+    {
+        "word": "Vital",
+        "definition": "Extremely important; essential",
+        "isKnown": false
+    },
+    {
+        "word": "Vivid",
+        "definition": "Bright; clear; striking",
+        "isKnown": false
+    },
+    {
+        "word": "Vocation",
+        "definition": "Occupation; strong calling",
+        "isKnown": false
+    },
+    {
+        "word": "Wary",
+        "definition": "Cautious; watchful",
+        "isKnown": false
+    },
+    {
+        "word": "Wholly",
+        "definition": "Completely; entirely",
+        "isKnown": false
+    },
+    {
+        "word": "Yield",
+        "definition": "To produce; to give way",
+        "isKnown": false
+    },
+    {
+        "word": "Zealous",
+        "definition": "Passionately devoted",
+        "isKnown": false
     }
 ]
