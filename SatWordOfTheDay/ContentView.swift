@@ -26,10 +26,11 @@ struct ContentView: View {
                 endPoint: .bottomTrailing
             )
                 .ignoresSafeArea()
-            Button("test") {
-                showingKnown.toggle()
-            }
+            
             VStack {
+                Button("test") {
+                    showingKnown.toggle()
+                }
                 HStack() {
                         Button(action: {
                             if visualWordIndex > 0 {

@@ -17,7 +17,7 @@ func GetRawSATJson() -> [SATWord]
 {
     if let url = Bundle.main.url(forResource: "sat_words", withExtension: "json") {
         if let data = try? Data(contentsOf: url) {
-            if var words = try? JSONDecoder().decode([SATWord].self, from: data) {
+            if let words = try? JSONDecoder().decode([SATWord].self, from: data) {
                 return words
             }
         }
