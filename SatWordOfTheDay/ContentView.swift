@@ -14,6 +14,8 @@ struct ContentView: View {
     @State private var visualWordIndex = 0
     @State private var selectedWordIndex: Int?
     @State private var isSyncing = false
+    
+    @State private var showingKnown = false
 
 
     var body: some View {
@@ -24,6 +26,9 @@ struct ContentView: View {
                 endPoint: .bottomTrailing
             )
                 .ignoresSafeArea()
+            Button("test") {
+                showingKnown.toggle()
+            }
             VStack {
                 HStack() {
                         Button(action: {
@@ -112,6 +117,9 @@ struct ContentView: View {
 
                 Spacer()
             }
+        }
+        .sheet(isPresented: $showingKnown) {
+            KnownView()
         }
     }
 }
