@@ -13,7 +13,7 @@ struct KnownView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [.accent3, .accent4],
+                colors: [.accent4, .accent3],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
@@ -22,20 +22,18 @@ struct KnownView: View {
             VStack {
                 Text("GIRASJIRJDAIO")
                     .font(.title)
-                Button("Close") {
+                Button() {
                     dismiss()
+                } label: {
+                    Image(systemName: "xmark.circle.fill")
                 }
-                .background(.accent)
+                //.background(.accent)
             }
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
-                    Button {
-                        dismiss()
-                    } label: {
-                        Image(systemName: "xmark.circle.fill")
-                    }
-                }
-            }
+            .navigationTitle("Known Words")
         }
     }
+}
+
+#Preview {
+    KnownView()
 }

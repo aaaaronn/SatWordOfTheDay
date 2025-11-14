@@ -14,24 +14,12 @@ struct ContentView: View {
     @State private var visualWordIndex = 0
     @State private var selectedWordIndex: Int?
     @State private var isSyncing = false
-    
-    @State private var showingKnown = false
 
 
     var body: some View {
-        ZStack {
-            LinearGradient(
-                colors: [.accent3, .accent4],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-                .ignoresSafeArea()
-            
-            VStack {
-                Button("test") {
-                    showingKnown.toggle()
-                }
-                HStack() {
+            NavigationStack() {
+                VStack {
+                    HStack() {
                         Button(action: {
                             if visualWordIndex > 0 {
                                 visualWordIndex -= 1
@@ -40,7 +28,7 @@ struct ContentView: View {
                             Image(systemName: "chevron.left")
                                 .font(.system(size: 50))
                         }
-                    
+                        
                         
                         Spacer()
                         
@@ -49,7 +37,7 @@ struct ContentView: View {
                             .bold()
                             .foregroundColor(.accent2)
                             .scaleEffect(UIDevice.current.userInterfaceIdiom == .pad ? 1.5 : 1)
-                    
+                        
                         
                         Spacer()
                         
@@ -61,67 +49,73 @@ struct ContentView: View {
                             Image(systemName: "chevron.right")
                                 .font(.system(size: 50))
                         }
-                }
-                .padding()
-                .background(.accent4.opacity(0.8))
-                .cornerRadius(15)
-                .shadow(radius: 5, x: 5, y: 5)
-                .shadow(color: .white.opacity(0.5), radius: 2)
-                .padding()
-
-                Spacer()
-
-                ScrollViewReader { scrollProxy in
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        LazyHStack(spacing: 32) {
-                            ForEach(words.indices, id: \.self) { i in
-                                WordCardView(
-                                    word: words[i].word,
-                                    definition: words[i].definition
-                                )
-                                .containerRelativeFrame(.horizontal, count: 1, span: 1, spacing: 0)
-                                .id(i)
-                                .scaleEffect(UIDevice.current.userInterfaceIdiom == .pad ? 2.5 : 1)
+                    }
+                    .padding()
+                    .background(.accent4.opacity(0.8))
+                    .cornerRadius(15)
+                    .shadow(radius: 5, x: 5, y: 5)
+                    .shadow(color: .white.opacity(0.5), radius: 2)
+                    .padding()
+                    
+                    Spacer()
+                    
+                    ScrollViewReader { scrollProxy in
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            LazyHStack(spacing: 32) {
+                                ForEach(words.indices, id: \.self) { i in
+                                    WordCardView(
+                                        word: words[i].word,
+                                        definition: words[i].definition
+                                    )
+                                    .containerRelativeFrame(.horizontal, count: 1, span: 1, spacing: 0)
+                                    .id(i)
+                                    .scaleEffect(UIDevice.current.userInterfaceIdiom == .pad ? 2.5 : 1)
+                                }
+                            }
+                            .scrollTargetLayout()
+                        }
+                        .safeAreaPadding(.horizontal, 32)
+                        .scrollPosition(id: $selectedWordIndex)
+                        // hopefully only runs once on load
+                        .onChange(of: startingDayIndex) {
+                            scrollProxy.scrollTo(startingDayIndex, anchor: .center)
+                        }
+                        .onChange(of: selectedWordIndex) {
+                            if let index = selectedWordIndex {
+                                isSyncing = true
+                                visualWordIndex = index
                             }
                         }
-                        .scrollTargetLayout()
-                    }
-                    .safeAreaPadding(.horizontal, 32)
-                    .scrollPosition(id: $selectedWordIndex)
-                    // hopefully only runs once on load
-                    .onChange(of: startingDayIndex) {
-                        scrollProxy.scrollTo(startingDayIndex, anchor: .center)
-                    }
-                    .onChange(of: selectedWordIndex) {
-                        if let index = selectedWordIndex {
-                            isSyncing = true
-                            visualWordIndex = index
+                        .onChange(of: visualWordIndex) {
+                            // only animate from arrows
+                            if isSyncing {
+                                isSyncing = false
+                                return
+                            }
+                            withAnimation {
+                                scrollProxy.scrollTo(visualWordIndex, anchor: .center)
+                            }
                         }
                     }
-                    .onChange(of: visualWordIndex) {
-                        // only animate from arrows
-                        if isSyncing {
-                            isSyncing = false
-                            return
-                        }
-                        withAnimation {
-                            scrollProxy.scrollTo(visualWordIndex, anchor: .center)
-                        }
+                    .scrollTargetBehavior(.viewAligned)
+                    .onAppear {
+                        WidgetCenter.shared.reloadAllTimelines()
+                        startingDayIndex = words.count / 2
+                        visualWordIndex = startingDayIndex
+                    }
+                    
+                    Spacer()
+                    
+                    NavigationLink(destination: KnownView()) {
+                        Text("View Known Words")
                     }
                 }
-                .scrollTargetBehavior(.viewAligned)
-                .onAppear {
-                    WidgetCenter.shared.reloadAllTimelines()
-                    startingDayIndex = words.count / 2
-                    visualWordIndex = startingDayIndex
-                }
-
-                Spacer()
+                .background(LinearGradient(
+                    colors: [.accent3, .accent4],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                ))
             }
-        }
-        .sheet(isPresented: $showingKnown) {
-            KnownView()
-        }
     }
 }
 
