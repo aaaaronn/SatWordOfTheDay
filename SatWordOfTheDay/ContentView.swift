@@ -14,10 +14,11 @@ struct ContentView: View {
     @State private var visualWordIndex = 0
     @State private var selectedWordIndex: Int?
     @State private var isSyncing = false
+    
+    @State private var showingKnownWords = false
 
 
     var body: some View {
-            NavigationStack() {
                 VStack {
                     HStack() {
                         Button(action: {
@@ -106,8 +107,11 @@ struct ContentView: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: KnownView()) {
-                        Text("View Known Words")
+                    Button("View Known Words") {
+                        showingKnownWords = true
+                    }
+                    .sheet(isPresented: $showingKnownWords) {
+                        KnownView(knownWords: GetKnownSATWords())
                     }
                 }
                 .background(LinearGradient(
@@ -116,7 +120,6 @@ struct ContentView: View {
                     endPoint: .bottomTrailing
                 ))
             }
-    }
 }
 
 #Preview {

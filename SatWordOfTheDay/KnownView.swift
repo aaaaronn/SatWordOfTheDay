@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct KnownView: View {
-    @Environment(\.dismiss) var dismiss
+    
+    let knownWords: [SATWord]
     
     var body: some View {
         ZStack {
@@ -19,21 +20,25 @@ struct KnownView: View {
             )
             .ignoresSafeArea()
             
-            VStack {
-                Text("GIRASJIRJDAIO")
-                    .font(.title)
-                Button() {
-                    dismiss()
-                } label: {
-                    Image(systemName: "xmark.circle.fill")
+            let columns = [
+                GridItem(.flexible(), spacing: 16),
+                GridItem(.flexible(), spacing: 16)
+            ]
+            
+            Text("\(knownWords.count)")
+            
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 16) {
+                    ForEach(knownWords, id: \.word) { word in
+                        WordCardView(word: word.word, definition: word.definition)
+                    }
                 }
-                //.background(.accent)
+                .padding()
             }
-            .navigationTitle("Known Words")
         }
     }
 }
 
 #Preview {
-    KnownView()
+    KnownView(knownWords: GetKnownSATWords())
 }
